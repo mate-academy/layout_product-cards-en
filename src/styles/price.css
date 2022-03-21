@@ -1,0 +1,27 @@
+.price {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  line-height: 18px;
+}
+
+.product__price {
+  margin-top: 24px;
+}
+
+.price__text {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+
+  color: #616070;
+}
+
+.price__amount {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
