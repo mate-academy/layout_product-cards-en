@@ -1,0 +1,11 @@
+.stars-and-reviews {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--card-secondary-font-size);
+  line-height: 14px;
+}
+
+.stars-and-reviews--m-top {
+  margin-top: 17px;
+}
