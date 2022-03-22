@@ -1,11 +1,25 @@
-@import "./all.css";
-
-@import "./body.css";
-
 @import "./card.css";
 
 @import "./review.css";
 
+@import "./star.css";
+
 @import "./price.css";
 
-@import "./buy.css";
+* {
+  box-sizing: border-box;
+}
+
+html {
+  --main-color: #060b35;
+  --secondary-color: #616070;
+  --button-bgc-color: #00acdc;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+
+  color: var(--main-color);
+}
