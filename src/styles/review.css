@@ -1,0 +1,10 @@
+.review {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.review__text {
+  line-height: 18px;
+  font-size: 10px;
+}
