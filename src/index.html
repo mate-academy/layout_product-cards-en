@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <div class="product">
+    <div class="product" data-qa="card">
       <img src="./images/imac.jpeg" alt="imac PC" class="product__image">
       <div class="product__desc">
         <p class="product__name">
@@ -35,7 +35,13 @@
 
 
       </div>
-      <a href="#" class="product__cta-link"><button class="product__cta-btn">Buy</button></a>
+      <a
+        href="#"
+        class="product__cta-link"
+        data-qa="hover"
+      >
+        <button class="product__cta-btn">Buy</button>
+      </a>
     </div>
   </body>
 </html>
