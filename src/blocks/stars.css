@@ -22,4 +22,5 @@
 .stars__reviews {
   margin: auto 0 0 auto;
   font-size: var(--card-secondary-font-size);
+  font-weight: 400;
 }
