@@ -1,0 +1,127 @@
+html {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  color: #060b35;
+}
+
+body,
+span,
+h1,
+p {
+  margin: 0;
+}
+
+.page__card {
+  display: flex;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+}
+
+.card {
+  flex-direction: column;
+  width: 200px;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.card__image {
+  align-self: center;
+  width: 160px;
+  height: 134px;
+}
+
+.card__heading {
+  padding: 40px 16px 4px;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card__product-code {
+  padding-left: 16px;
+  align-self: flex-start;
+  font-size: 10px;
+}
+
+.card__reviews {
+  display: flex;
+  padding-top: 16px;
+  justify-content: space-between;
+}
+
+.review__stars {
+  display: flex;
+}
+
+.stars {
+  align-self: flex-start;
+  padding-left: 16px;
+}
+
+.stars__star {
+  background-image: url("images/star.svg");
+  background-size: cover;
+  height: 12px;
+  width: 12px;
+  margin: 0 6px 2px 2px;
+}
+
+.stars__star:first-child {
+  margin-left: 0;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.stars--1 :nth-child(1),
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 :nth-child(-n+5) {
+  background-image: url("images/star-active.svg");
+}
+
+.review__count {
+  padding-right: 16px;
+  font-size: 10px;
+}
+
+.card__price {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 24px;
+}
+
+.price__tag {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card__button {
+  display: flex;
+  align-self: center;
+  margin-top: 16px;
+  border-radius: 5px;
+}
+
+.button {
+  justify-content: center;
+  align-items: center;
+  width: 166px;
+  height: 40px;
+  background-color: #00acdc;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  border: 1px solid #00acdc;
+  background-color: #fff;
+  color: #00acdc;
+}
