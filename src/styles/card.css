@@ -1,13 +1,15 @@
 .container {
   box-sizing: border-box;
-  display: flex;
   width: 200px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
+  margin: 10px;
 }
 
 .container__card {
   padding: 0 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
