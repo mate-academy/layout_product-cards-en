@@ -1,0 +1,23 @@
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--secondary-color);
+}
+
+.price__text {
+  font-size: 12px;
+  color: var(--secondary-color);
+}
+
+.card__price {
+  margin-top: 23px;
+}
+
+.price__number {
+  font-size: var(--card-price-font-size);
+  color: var(--primary-color);
+  font-weight: 700;
+}
