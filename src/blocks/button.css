@@ -6,7 +6,7 @@
   background-color: var(--button-color);
   border-radius: 5px;
   border: 1px solid transparent;
-  height: 40px;
+  padding: 11px 0;
 
   line-height: 16px;
   text-align: center;
