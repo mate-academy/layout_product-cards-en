@@ -1,0 +1,78 @@
+html {
+  font-family: "Roboto" Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #060b35;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 198px;
+
+  background: #fff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  padding: 0 16px;
+}
+
+.product__image {
+  width: 160px;
+  height: 134px;
+  margin: 16px 3px;
+}
+
+.product__code {
+  font-weight: 400;
+  font-size: 10px;
+  color: #616070;
+}
+
+.product__price {
+  font-size: 12px;
+  display: flex;
+  align-items: flex-end;
+  color: #616070;
+}
+
+.product__price--value {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: right;
+  color: #060b35;
+}
+
+.product__cta-btn {
+  display: flex;
+  flex-grow: 1;
+  margin: 0 0 16px;
+  padding: 12 70;
+
+  background: #00acdc;
+  border-radius: 5px;
+  border: none;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.product__cta-link {
+  padding: 12 70;
+  text-decoration: none;
+}
