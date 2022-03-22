@@ -1,0 +1,8 @@
+.reviews {
+  font-size: var(--card-secondary-font-size);
+  align-self: center;
+}
+
+.reviews--m-left {
+  margin: 0 0 0 auto;
+}

@@ -1,0 +1,16 @@
+@import "./variables.css";
+@import "./blocks/card.css";
+@import "./blocks/reviews.css";
+@import "./blocks/stars-and-reviews.css";
+@import "./blocks/stars.css";
+
+.page {
+  font-family: "Roboto", sans-serif;
+}
+
+.page__content,
+h3,
+h4,
+p {
+  margin: 0;
+}
