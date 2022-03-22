@@ -1,4 +1,4 @@
-.product {
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,12 +9,12 @@
   padding: 32px 16px 16px;
 }
 
-.product__image {
+.card__image {
   width: 160px;
   height: 134px;
 }
 
-.product__name {
+.card__name {
   align-self: center;
   margin-top: 40px;
   margin-bottom: 0;
@@ -24,7 +24,7 @@
   font-weight: 500;
 }
 
-.product__code {
+.card__code {
   align-self: flex-start;
   margin-top: 4px;
   margin-bottom: 0;

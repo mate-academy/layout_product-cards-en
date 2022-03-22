@@ -1,8 +1,9 @@
-.buy {
+.card__buy {
   display: flex;
   justify-content: center;
   align-items: center;
 
+  margin-top: 16px;
   border-radius: 5px;
   width: 166px;
   height: 40px;
@@ -17,11 +18,7 @@
   color: #fff;
 }
 
-.product__buy {
-  margin-top: 16px;
-}
-
-.buy:hover {
+.card__buy:hover {
   border: 1px solid #00acdc;
   background-color: #fff;
   color: #00acdc;

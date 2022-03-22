@@ -8,13 +8,17 @@
   height: 16px;
 }
 
-.product__review {
+.card__review {
   margin-top: 16px;
 }
 
 .star {
   display: flex;
   align-self: flex-start;
+}
+
+.card__star {
+  margin-top: 16px;
 }
 
 .star__star {
