@@ -8,9 +8,10 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-body,
-h3,
-h4,
-p {
+* {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
 }
