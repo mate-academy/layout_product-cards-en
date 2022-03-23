@@ -25,7 +25,6 @@
   color: var(--p-dark-color);
   font-weight: 500;
   line-height: var(--line-height-large);
-  /* text-align: justify; */
 }
 
 .card__product-code {
@@ -36,4 +35,8 @@
   color: var(--p-light-color);
   font-size: var(--font-size-small);
   line-height: var(--line-height-small);
+}
+
+.card__button {
+  margin: 16px;
 }
