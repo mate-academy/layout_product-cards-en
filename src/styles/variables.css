@@ -1,0 +1,18 @@
+:root {
+  --card-inside-width: 166px;
+  --margin-top-small: 16px;
+  --margin-top-medium: 24px;
+
+  --font-size-small: 10px;
+  --font-size-regular: 12px;
+  --font-size-medium: 14px;
+  --font-size-large: 16px;
+
+  --line-height-small: 14px;
+  --line-height-large: 18px;
+
+  --p-dark-color: #060b35;
+  --p-light-color: #616070;
+
+  --button-color: #00acdc;
+}
