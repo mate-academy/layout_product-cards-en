@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: Roboto, sans-serif;
   font-size: 12px;
@@ -5,19 +9,18 @@ html {
 }
 
 body,
-span,
 h1,
 p {
   margin: 0;
 }
 
 .page__card {
-  display: flex;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
 }
 
 .card {
+  display: flex;
   flex-direction: column;
   width: 200px;
   padding-top: 32px;
@@ -30,7 +33,7 @@ p {
   height: 134px;
 }
 
-.card__heading {
+.card__product-name {
   padding: 40px 16px 4px;
   line-height: 18px;
   font-size: 12px;
@@ -41,11 +44,13 @@ p {
   padding-left: 16px;
   align-self: flex-start;
   font-size: 10px;
+  line-height: 14px;
+  color: #616070;
 }
 
 .card__reviews {
   display: flex;
-  padding-top: 16px;
+  padding-top: 18px;
   justify-content: space-between;
 }
 
@@ -54,7 +59,6 @@ p {
 }
 
 .stars {
-  align-self: flex-start;
   padding-left: 16px;
 }
 
@@ -90,9 +94,10 @@ p {
 .card__price {
   display: flex;
   justify-content: space-between;
+  margin-top: 24px;
   padding-left: 16px;
   padding-right: 16px;
-  margin-top: 24px;
+  line-height: 18px;
 }
 
 .price__tag {
@@ -105,13 +110,10 @@ p {
   align-self: center;
   margin-top: 16px;
   border-radius: 5px;
-}
-
-.button {
   justify-content: center;
   align-items: center;
-  width: 166px;
   height: 40px;
+  width: 166px;
   background-color: #00acdc;
   font-size: 14px;
   font-weight: 700;
@@ -120,7 +122,7 @@ p {
   text-transform: uppercase;
 }
 
-.button:hover {
+.card__button:hover {
   border: 1px solid #00acdc;
   background-color: #fff;
   color: #00acdc;
