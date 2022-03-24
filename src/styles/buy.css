@@ -1,4 +1,4 @@
-.buy-link {
+.buy {
   display: inline-block;
   background: #00acdc;
   border-radius: 5px;
@@ -6,13 +6,12 @@
   font-size: 14px;
   line-height: 16px;
   padding: 12px 69px 12px 70px;
-  margin-top: 16px;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.buy-link:hover {
+.buy:hover {
   background-color: #fff;
   color: #00acdc;
   border: 1px solid #00acdc;
