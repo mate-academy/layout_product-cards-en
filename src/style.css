@@ -35,14 +35,14 @@ p {
 
 .card__product-name {
   padding: 40px 16px 4px;
-  line-height: 18px;
   font-size: 12px;
+  line-height: 18px;
   font-weight: 500;
 }
 
 .card__product-code {
-  padding-left: 16px;
   align-self: flex-start;
+  padding-left: 16px;
   font-size: 10px;
   line-height: 14px;
   color: #616070;
@@ -50,8 +50,8 @@ p {
 
 .card__reviews {
   display: flex;
-  padding-top: 18px;
   justify-content: space-between;
+  padding-top: 18px;
 }
 
 .review__stars {
@@ -63,11 +63,11 @@ p {
 }
 
 .stars__star {
-  background-image: url("images/star.svg");
-  background-size: cover;
-  height: 12px;
-  width: 12px;
   margin: 0 6px 2px 2px;
+  width: 12px;
+  height: 12px;
+  background: url("images/star.svg");
+  background-size: cover;
 }
 
 .stars__star:first-child {
@@ -108,22 +108,25 @@ p {
 .card__button {
   display: flex;
   align-self: center;
-  margin-top: 16px;
-  border-radius: 5px;
   justify-content: center;
   align-items: center;
-  height: 40px;
+
+  margin-top: 16px;
+  border: 1px solid transparent;
+  border-radius: 5px;
   width: 166px;
+  height: 40px;
+
   background-color: #00acdc;
   font-size: 14px;
   font-weight: 700;
-  color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .card__button:hover {
-  border: 1px solid #00acdc;
+  border-color: #00acdc;
   background-color: #fff;
   color: #00acdc;
 }
