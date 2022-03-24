@@ -113,7 +113,7 @@ body {
 }
 
 .item__buy {
-  border: 1px solid #00acdc;
+  border: 1px solid transparent;
   border-radius: 5px;
 
   display: flex;
@@ -130,7 +130,7 @@ body {
 }
 
 .item__buy:hover {
-  border: 1px solid;
+  border-color: #00acdc;
 
   color: #00acdc;
   background-color: #fff;
