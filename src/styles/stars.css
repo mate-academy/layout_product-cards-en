@@ -22,13 +22,8 @@
   background-image: url(../images/star-active.svg);
 }
 
-.review {
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.review__text {
+.stars__text {
+  margin: auto 0 0 auto;
   line-height: 18px;
   font-size: 10px;
 }
