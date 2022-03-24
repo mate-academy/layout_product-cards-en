@@ -1,0 +1,21 @@
+@import "./page.css";
+@import "./card.css";
+@import "./review.css";
+@import "./stars.css";
+@import "./price.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  color: #060b35;
+}
+
+body,
+h1,
+p {
+  margin: 0;
+}
