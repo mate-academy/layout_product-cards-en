@@ -1,6 +1,4 @@
-body,
-h2,
-p {
+body {
   margin: 0;
 }
 
@@ -37,6 +35,7 @@ html {
 }
 /* #endregion */
 
+/* #region Card */
 .card {
   display: flex;
   flex-direction: column;
@@ -54,7 +53,7 @@ html {
 
 .card__title {
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 12px;
   line-height: 18px;
   color: #060b35;
   margin: 0 16px 4px;
@@ -71,7 +70,7 @@ html {
 .card__ratings {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin: 0 16px 24px;
 
 }
@@ -80,6 +79,7 @@ html {
   font-weight: 400;
   color: #060b35;
   font-size: 10px;
+  margin: 0;
 }
 
 .card__price {
@@ -92,12 +92,14 @@ html {
 .card__price-title {
   font-weight: 400;
   color: #616070;
+  margin: 0;
 }
 
 .card__amount {
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
+  margin: 0;
 }
 
 .card__button {
@@ -122,5 +124,6 @@ html {
 .card__button:hover {
   background-color: #fff;
   color: #00acdc;
-  border: 1px solid #00acdc;
+  border-color: #00acdc;
 }
+/* #endregion */
