@@ -1,13 +1,60 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>Product cards</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <h1>Product cards</h1>
-</body>
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Product cards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body class="page">
+    <div data-qa="card" class="card page__card">
+      <img
+        class="photo card__photo"
+        src="images/imac.jpeg"
+        alt="imac"
+      >
+
+      <div class="product">
+        <p class="description product__name">
+          APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+        </p>
+        <p class="description product__code">
+          Product code: 195434
+        </p>
+      </div>
+
+      <div class="review">
+        <div class="stars review__stars--4">
+          <span class="stars__star"></span>
+          <span class="stars__star"></span>
+          <span class="stars__star"></span>
+          <span class="stars__star"></span>
+          <span class="stars__star"></span>
+        </div>
+        <p class="rating review__number">
+          Reviews: 5
+        </p>
+      </div>
+
+      <div class="price">
+        <p class="amount price__text">
+          Price:
+        </p>
+        <p class="amount price__value">
+          $2,199
+        </p>
+      </div>
+
+      <div class="buy">
+        <a href="#" class="button buy__button" data-qa="hover">
+          BUY
+        </a>
+      </div>
+
+    </div>
+  </body>
 </html>
