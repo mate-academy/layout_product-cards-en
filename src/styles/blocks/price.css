@@ -1,0 +1,27 @@
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 18px;
+  font-size: 12px;
+  color: var(--secondary-color);
+}
+
+.price__text {
+  font-size: var(--card-title-font-size);
+  color: var(--secondary-color);
+  margin: 0;
+  line-height: 18px;
+}
+
+.card__price {
+  margin-top: 24px;
+}
+
+.price__cost {
+  font-size: var(--card-price-font-size);
+  color: var(--primary-color);
+  font-weight: 700;
+  margin: 0;
+  line-height: 18px;
+}
