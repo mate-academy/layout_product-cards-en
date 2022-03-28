@@ -1,0 +1,19 @@
+.buy {
+  display: inline-block;
+  background-color: #00acdc;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 12px 69px 12px 70px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.buy:hover {
+  background-color: #fff;
+  color: #00acdc;
+  border-color: #00acdc;
+}
