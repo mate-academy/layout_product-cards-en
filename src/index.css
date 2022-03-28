@@ -1,0 +1,18 @@
+@import "./variables.css";
+@import "./blocks/card.css";
+@import "./blocks/stars.css";
+@import "./blocks/price.css";
+@import "./blocks/button.css";
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--primary-color);
+}
