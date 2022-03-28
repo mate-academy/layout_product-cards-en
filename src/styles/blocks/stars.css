@@ -22,7 +22,6 @@
 
 .stars__reviews {
   margin: auto 0 0 auto;
-  font-weight: var( --card-width);
   font-size: var(--card-secondary-font-size);
   text-align: center;
   line-height: var(--card-button-font-size);
