@@ -33,6 +33,7 @@ p {
 .product__image {
   margin: 0 3px 40px;
   width: 160px;
+  height: 134px;
 }
 
 .product__name {
