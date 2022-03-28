@@ -11,12 +11,12 @@
   text-decoration: none;
   color: var(--button-text-color);
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: var(--card-button-font-size);
   font-weight: 700;
 }
 
 .button:hover {
   color: var(--button-color);
-  background-color: #fff;
+  background-color: var(--button-text-color);
   border-color: var(--button-color);
 }
