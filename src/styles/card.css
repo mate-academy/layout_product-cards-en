@@ -19,6 +19,7 @@
 }
 
 .card__header {
+  font-size: 12px;
   margin-top: 40px;
   font-weight: 500;
   color: #060b35;
@@ -44,12 +45,12 @@
   margin-top: 22px;
 }
 
-.price-text {
+.card__price-text {
   color: #616070;
   margin: 0;
 }
 
-.price-dolars {
+.card__price-dolars {
   font-size: 16px;
   margin: 0;
   font-weight: 700;
