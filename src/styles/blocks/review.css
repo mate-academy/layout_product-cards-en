@@ -1,0 +1,15 @@
+.review {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.review__num {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #060b35;
+  margin-top: auto;
+}
