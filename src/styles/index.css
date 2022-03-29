@@ -2,7 +2,6 @@
 @import "./card.css";
 @import "./review.css";
 @import "./stars.css";
-@import "./price.css";
 
 * {
   box-sizing: border-box;

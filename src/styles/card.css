@@ -32,6 +32,11 @@
   line-height: 18px;
 }
 
+.card__price-tag {
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .card__button {
   display: flex;
   align-self: center;
