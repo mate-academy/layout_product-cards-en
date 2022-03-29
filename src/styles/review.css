@@ -4,10 +4,6 @@
   padding-top: 18px;
 }
 
-.review__stars {
-  display: flex;
-}
-
 .review__count {
   font-size: 10px;
 }
