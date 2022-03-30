@@ -15,19 +15,24 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 30px;
 }
 
 .card {
   width: 200px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
+  padding: 32px 16px 16px;
+}
+
+.card__image {
+  display: flex;
+  justify-content: center;
 }
 
 .card__image img {
   width: 160px;
   height: 134px;
-  margin: 32px 19px 0;
 }
 
 .card__title {
@@ -35,31 +40,16 @@ body {
   line-height: 18px;
   font-weight: 500;
   color: var(--high-blue-color);
-  margin: 36px 16px 0;
+  padding-top: 40px;
+  margin: 0;
 }
 
 .card__text {
   font-size: 10px;
   font-weight: 400;
   color: var(--high-grey-color);
-  margin: 4px 84px 9px 16px;
-}
-
-.card__rating {
-  display: flex;
-}
-
-.card__star {
-  width: 16px;
-  height: 16px;
-  background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 4px;
-}
-
-.card__star:nth-child(5) {
-  background-image: url(./images/star.svg);
+  margin-top: 4px;
+  margin-bottom: 9px;
 }
 
 .card__flex {
@@ -67,7 +57,29 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 9px 16px 14px;
+}
+
+.card__stars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
+}
+
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: url("./images/star-active.svg");
 }
 
 .card__review {
@@ -82,7 +94,7 @@ body {
   align-items: center;
   font-size: 12px;
   font-weight: 400;
-  margin: 0 16px 16px;
+  margin-top: 14px;
   color: var(--high-grey-color);
 }
 
@@ -100,15 +112,15 @@ body {
   font-size: 14px;
   font-weight: 700;
   width: 166px;
-  height: 40px;
+  padding: 11px 0;
+  text-decoration: none;
+  line-height: 18px;
   background-color: var(--primary-color);
   border: 0;
   border-radius: 5px;
   color: var(--white-color);
   text-transform: uppercase;
-  margin: 0 16px 16px;
-  padding: 0;
-  cursor: pointer;
+  margin-top: 16px;
 }
 
 .card__button:hover {
