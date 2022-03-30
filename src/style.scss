@@ -1,0 +1,14 @@
+@import "./styles/utils/variables";
+@import "./styles/utils/reset";
+@import "./styles/utils/mixins";
+
+@import "./styles/blocks/card";
+@import "./styles/blocks/stars";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
