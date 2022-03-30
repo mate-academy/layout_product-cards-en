@@ -20,7 +20,7 @@
   line-height: 18px;
   color: #060b35;
   margin-bottom: 4px;
-  margin-top: 0;
+  margin-top: var(--margin-reset);
 }
 
 .card__description {
@@ -28,7 +28,7 @@
   color: #616070;
   font-size: 10px;
   margin-bottom: 16px;
-  margin-top: 0;
+  margin-top: var(--margin-reset);
 
 }
 
@@ -44,7 +44,7 @@
   font-weight: 400;
   color: #060b35;
   font-size: 10px;
-  margin: 0;
+  margin: var(--margin-reset);
 }
 
 .card__price {
@@ -57,14 +57,14 @@
 .card__price-title {
   font-weight: 400;
   color: #616070;
-  margin: 0;
+  margin: var(--margin-reset);
 }
 
 .card__amount {
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
-  margin: 0;
+  margin: var(--margin-reset);
 }
 
 .card__button {
