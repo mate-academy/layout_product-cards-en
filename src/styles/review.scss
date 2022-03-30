@@ -1,0 +1,16 @@
+.reviews {
+  margin-bottom: 24px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 166px;
+  height: 16px;
+}
+
+.reviews__counter {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #060b35;
+}
