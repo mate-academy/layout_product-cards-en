@@ -1,4 +1,11 @@
 /* Styles go here */
+:root {
+  --high-blue-color: #060b35;
+  --high-grey-color: #616070;
+  --primary-color: #00acdc;
+  --white-color: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -15,9 +22,6 @@ body {
   width: 200px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  margin-right: 50px;
-  margin-bottom: 48px;
-  cursor: pointer;
 }
 
 .card__image img {
@@ -30,15 +34,15 @@ body {
   font-size: 12px;
   line-height: 18px;
   font-weight: 500;
-  color: #060b35;
+  color: var(--high-blue-color);
   margin: 36px 16px 0;
 }
 
 .card__text {
   font-size: 10px;
   font-weight: 400;
-  color: #616070;
-  margin: 4px 84px 16px 16px;
+  color: var(--high-grey-color);
+  margin: 4px 84px 9px 16px;
 }
 
 .card__rating {
@@ -56,8 +60,6 @@ body {
 
 .card__star:nth-child(5) {
   background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .card__flex {
@@ -65,13 +67,13 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 17px 16px 23px;
+  margin: 9px 16px 14px;
 }
 
 .card__review {
   font-size: 10px;
   font-weight: 400;
-  color: #060b35;
+  color: var(--high-blue-color);
 }
 
 .card__price {
@@ -81,13 +83,13 @@ body {
   font-size: 12px;
   font-weight: 400;
   margin: 0 16px 16px;
-  color: #616070;
+  color: var(--high-grey-color);
 }
 
 .card__priceBold {
   font-size: 16px;
   font-weight: 600;
-  color: #060b35;
+  color: var(--high-blue-color);
 }
 
 .card__button {
@@ -99,10 +101,10 @@ body {
   font-weight: 700;
   width: 166px;
   height: 40px;
-  background-color: #00acdc;
+  background-color: var(--primary-color);
   border: 0;
   border-radius: 5px;
-  color: #fff;
+  color: var(--white-color);
   text-transform: uppercase;
   margin: 0 16px 16px;
   padding: 0;
@@ -110,7 +112,7 @@ body {
 }
 
 .card__button:hover {
-  background-color: #fff;
-  color: #00acdc;
-  border: 1px solid #00acdc;
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
