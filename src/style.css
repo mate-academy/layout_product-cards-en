@@ -1,0 +1,118 @@
+/* Styles go here */
+:root {
+  --high-blue-color: #060b35;
+  --high-grey-color: #616070;
+  --primary-color: #00acdc;
+  --white-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+}
+
+.card__image img {
+  width: 160px;
+  height: 134px;
+  margin: 32px 19px 0;
+}
+
+.card__title {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  color: var(--high-blue-color);
+  margin: 36px 16px 0;
+}
+
+.card__text {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--high-grey-color);
+  margin: 4px 84px 9px 16px;
+}
+
+.card__rating {
+  display: flex;
+}
+
+.card__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
+}
+
+.card__star:nth-child(5) {
+  background-image: url(./images/star.svg);
+}
+
+.card__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 9px 16px 14px;
+}
+
+.card__review {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--high-blue-color);
+}
+
+.card__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0 16px 16px;
+  color: var(--high-grey-color);
+}
+
+.card__priceBold {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--high-blue-color);
+}
+
+.card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 14px;
+  font-weight: 700;
+  width: 166px;
+  height: 40px;
+  background-color: var(--primary-color);
+  border: 0;
+  border-radius: 5px;
+  color: var(--white-color);
+  text-transform: uppercase;
+  margin: 0 16px 16px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.card__button:hover {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
