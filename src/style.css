@@ -1,0 +1,8 @@
+@import "./styles/card.css";
+@import "./styles/feedback.css";
+@import "./styles/price.css";
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
