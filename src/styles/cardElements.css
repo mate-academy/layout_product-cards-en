@@ -1,0 +1,61 @@
+.card__title {
+  font-size: var(--mid-font-size);
+  font-weight: medium;
+  line-height: 18px;
+  margin-top: 40px;
+}
+
+.card__imac {
+  width: 160px;
+  height: 134px;
+}
+
+.imac__image {
+  width: 100%;
+}
+
+.button-buy {
+  background: #00acdc;
+  border: none;
+  border-radius: 5px;
+  width: 166px;
+  height: 40px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+
+.price__text {
+  font-size: var(--mid-font-size);
+}
+
+.price__cost {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card__code {
+  align-self: flex-start;
+}
+
+.card__rate {
+  align-items: center;
+}
+
+.card__rate ,
+.card__price {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price__text ,
+.card__code {
+  color: var(--color-secondary);
+}
+
+.card__code,
+.rate__review {
+  font-size: 10px;
+}

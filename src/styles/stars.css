@@ -1,7 +1,7 @@
 .stars {
   display: flex;
-  justify-content: start;
   align-content: center;
+  gap: 4px;
 }
 
 .stars__star {

@@ -1,23 +1,21 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
   justify-content: center;
+  max-width: 1000px;
+  margin: 50px auto;
+  gap: 50px;
+  color: var(--color-main);
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 2rem 1rem 1rem;
   border: 1px solid #f3f3f3;
+  border-radius: 5px;
   flex-basis: 200px;
-}
-
-.imac {
-  width: 160px;
-}
-
-.imac__image {
-  width: 100%;
+  min-height: 408px;
 }
