@@ -1,8 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .stars {
   display: flex;
-  align-content: center;
-  justify-content: space-between;
-  width: 60%;
+  justify-content: start;
 }
 
 .stars__star {
