@@ -1,0 +1,84 @@
+/* image with monitor */
+.card__imac {
+  height: 134px;
+}
+
+/* mac description */
+.card__title {
+  padding-top: 40px;
+  line-height: 18px;
+  font-size: var(--font-size-mid);
+  font-weight: 500;
+}
+
+.card__code {
+  align-self: flex-start;
+  padding-top: 4px;
+  color: var(--color-secondary);
+}
+
+/* reviews */
+.card__rate {
+  margin-top: 16px;
+  align-items: center;
+}
+
+/* stars */
+.rate__stars {
+  justify-content: space-between;
+  width: 58%;
+}
+
+.rate__review ,
+.card__code {
+  /* 10px */
+  font-size: var(--font-size-small);
+}
+
+/* price */
+.cost__price {
+  font-size: var(--font-size-mid);
+  color: var(--color-secondary);
+}
+
+.cost__amount {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-main);
+}
+
+.card__cost {
+  padding: 1.5rem 0 1rem;
+  align-items: center;
+}
+
+.card__rate ,
+.card__cost {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* link buy */
+.card__link {
+  width: 166px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  /* 14px */
+  font-size: calc(1rem * 7 / 8);
+  background: var(--color-light-blue);
+  color: #fff;
+}
+
+.card__link:hover {
+  color: var(--color-light-blue);
+  background-color: white;
+  border-color: var(--color-light-blue);
+}
