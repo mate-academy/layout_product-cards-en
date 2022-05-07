@@ -1,6 +1,8 @@
 :root {
   /* 12px */
-  --mid-font-size: 0.75rem;
+  --font-size-mid: 0.75rem;
+  /* 10px */
+  --font-size-small: calc(1rem / 1.6);
   --color-light-blue: #00acdc;
   --color-main: #060b35;
   --color-secondary: #616070;

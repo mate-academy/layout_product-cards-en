@@ -1,11 +1,13 @@
+/* image with monitor */
 .card__imac {
   height: 134px;
 }
 
+/* mac description */
 .card__title {
   padding-top: 40px;
   line-height: 18px;
-  font-size: var(--mid-font-size);
+  font-size: var(--font-size-mid);
   font-weight: 500;
 }
 
@@ -15,13 +17,27 @@
   color: var(--color-secondary);
 }
 
+/* reviews */
 .card__rate {
   margin-top: 16px;
   align-items: center;
 }
 
+/* stars */
+.rate__stars {
+  justify-content: space-between;
+  width: 58%;
+}
+
+.rate__review ,
+.card__code {
+  /* 10px */
+  font-size: var(--font-size-small);
+}
+
+/* price */
 .cost__price {
-  font-size: var(--mid-font-size);
+  font-size: var(--font-size-mid);
   color: var(--color-secondary);
 }
 
@@ -32,7 +48,7 @@
 }
 
 .card__cost {
-  padding: 24px 0 16px;
+  padding: 1.5rem 0 1rem;
   align-items: center;
 }
 
@@ -43,33 +59,25 @@
   width: 100%;
 }
 
-.card__code,
-.rate__review {
-  font-size: 10px;
-}
-
+/* link buy */
 .card__link {
-  background: #00acdc;
-  border-radius: 5px;
   width: 166px;
   height: 40px;
-  color: #fff;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: inherit;
-  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #00acdc;
+  border-radius: 5px;
+  border: 1px solid var(--color-light-blue);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  /* 14px */
+  font-size: calc(1rem * 7 / 8);
+  background: var(--color-light-blue);
+  color: #fff;
 }
 
 .card__link:hover {
-  color: #00acdc;
+  color: var(--color-light-blue);
   background-color: white;
-}
-
-.rate__stars {
-  justify-content: space-between;
-  width: 58%;
 }
