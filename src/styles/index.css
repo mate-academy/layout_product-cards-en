@@ -10,7 +10,6 @@ body {
 }
 
 @import "./variables.css";
-@import "./header.css";
 @import "./stars.css";
-@import "./cards.css";
+@import "./card.css";
 @import "./cardElements.css";
