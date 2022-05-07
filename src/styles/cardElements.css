@@ -11,24 +11,29 @@
 
 .card__code {
   align-self: flex-start;
-  padding: 4px 0 16px;
+  padding-top: 4px;
+  color: var(--color-secondary);
 }
 
 .card__rate {
+  margin-top: 16px;
   align-items: center;
 }
 
 .cost__price {
   font-size: var(--mid-font-size);
+  color: var(--color-secondary);
 }
 
 .cost__amount {
   font-size: 1rem;
   font-weight: 700;
+  color: var(--color-main);
 }
 
 .card__cost {
   padding: 24px 0 16px;
+  align-items: center;
 }
 
 .card__rate ,
@@ -38,35 +43,30 @@
   width: 100%;
 }
 
-.cost__amount ,
-.card__code {
-  color: var(--color-secondary);
-}
-
 .card__code,
 .rate__review {
   font-size: 10px;
 }
 
-.button-buy {
+.card__link {
   background: #00acdc;
-  border: none;
   border-radius: 5px;
   width: 166px;
   height: 40px;
-  line-height: 40px;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   font-family: inherit;
   font-size: 14px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #00acdc;
 }
 
-.button-buy:hover {
+.card__link:hover {
   color: #00acdc;
   background-color: white;
-  border: 1px solid #00acdc;
 }
 
 .rate__stars {
