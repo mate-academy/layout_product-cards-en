@@ -4,15 +4,63 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+ 
+.container {
+  width: 200px;
+  
 }
 
 .container__card {
-  padding: 16px;
-  margin: 48px 24px;
+  height: 406px;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
 }
 
 .card {
   font-size: 16px;
-  background-color: purple;
+
+}
+
+.container__button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  background: #00acdc;
+  border-radius: 5px;
+  height: 40px;
+  width: 166px;
+  margin: 17px;
+  color: #fff;
+  border: none;
+}
+
+.container__button:hover {
+  background: #fff;
+  margin: 17px;
+  color: #00acdc;
+  border-color: #00acdc;
+  border: solid #00acdc 2px;
+}
+
+.container__price {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 16px;
+}
+
+.container__price-text {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #616070;
+}
+
+.container__price-USD {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #060b35;
 }
