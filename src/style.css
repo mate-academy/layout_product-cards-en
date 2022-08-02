@@ -55,9 +55,10 @@ body {
 
 .stars {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-
+  margin-left: 8px;
+  margin-right: 16px;
 }
 
 .stars__star {
@@ -82,13 +83,10 @@ body {
 }
 
 .stars__reviews-text {
-  display: flex;
   font-weight: 400;
   font-size: 10px;
-  line-height: 14px;
   color: #060b35;
-  align-items: right;
-  right: 16px;
+  font-style: normal;
 }
 
 /* #endregion */
