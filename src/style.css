@@ -15,13 +15,14 @@ body {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  padding: 32px 16px 16px;
+  justify-content: space-between;
 }
 
 .card__product-img {
   width: 160px;
   height: 134px;
-  margin-top: 32px;
-  margin-left: 19px;
+  margin-left: 3px;
 }
 
 /* #region Product-Title & Product-Code */
@@ -34,8 +35,11 @@ body {
   line-height: 18px;
   color: #060b35;
   margin-top: 40px;
-  margin-left: 16px;
-  margin-right: 16px;
+
+}
+
+.card_product-code-container {
+  align-items: left;
 }
 
 .card__product-code {
@@ -45,8 +49,11 @@ body {
   line-height: 14px;
   color: #616070;
   margin-top: 4px;
-  margin-left: 16px;
   margin-bottom: 16px;
+}
+
+.card__product-filler {
+  flex-basis: 50%;
 }
 
 /* #endregion */
@@ -57,8 +64,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 8px;
-  margin-right: 16px;
+ 
 }
 
 .stars__star {
@@ -98,8 +104,7 @@ body {
   align-items: center;
   margin-bottom: 16px;
   margin-top: 24px;
-  margin-left: 16px;
-  margin-right: 16px;
+ 
 }
 
 .card__price-text {
@@ -140,7 +145,7 @@ body {
   width: 166px;
   color: #fff;
   border: none;
-  margin: 0 16px 16px;
+
 }
 
 .card__buy-button:hover {
