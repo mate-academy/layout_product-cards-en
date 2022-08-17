@@ -9,5 +9,4 @@ html {
   font-style: normal;
 }
 
-@import "./header.css";
 @import "./card.css";
