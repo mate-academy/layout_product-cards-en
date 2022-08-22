@@ -3,8 +3,11 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* product card container */
-.card {
+body {
+  margin: 0;
+}
+
+.product {
   border: 1px solid #f3f3f3;
   border-radius: 5px;
   max-width: 200px;
@@ -14,14 +17,14 @@
   color: #060b35;
 }
 
-.img {
+.product_img {
   width: 160px;
   height: 134px;
   display: block;
   margin: 0 auto 40px;
 }
 
-.title {
+.product_title {
   margin: 0;
   font-weight: 500;
   font-size: 12px;
@@ -29,15 +32,13 @@
   margin-bottom: 4px;
 }
 
-/* product code */
-.code {
+.product_code {
   font-size: 10px;
   line-height: 14px;
   color: #616070;
   margin-bottom: 16px;
 }
 
-/* reviews block*/
 .feedback {
   display: flex;
   justify-content: space-between;
@@ -64,12 +65,11 @@
   background-image: url("./images/star-active.svg");
 }
 
-/* reviews text */
 .reviews {
   font-size: 10px;
   line-height: 14px;
 }
-/* price block */
+
 .price {
   display: flex;
   align-items: flex-end;
