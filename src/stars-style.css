@@ -2,12 +2,6 @@
   margin: 0;
 }
 
-.group {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .stars {
   display: flex;
   flex-direction: row-reverse;
