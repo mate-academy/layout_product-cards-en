@@ -3,18 +3,21 @@
 .textSmall {
   font-size: 10px;
   font-weight: 400;
+  line-height: 14px;
   color: #616070;
 }
 
 .textMedium {
   font-size: 12px;
   font-weight: 500;
+  line-height: 18px;
   color: #060b35;
 }
 
 .textLarge {
   font-size: 16px;
   font-weight: 700;
+  line-height: 18px;
   color: #060b35;
 }
 
@@ -41,14 +44,10 @@
 
 .card__title {
   margin: 0 0 4px;
-
-  line-height: 18px;
 }
 
 .card__pcode {
   margin: 0 0 16px;
-
-  line-height: 14px;
 }
 
 .card__rating {
@@ -63,8 +62,6 @@
 
 .card__review {
   margin: 0;
-
-  line-height: 14px;
 }
 
 .card__price {
@@ -86,8 +83,6 @@
 
 .card__price-figure {
   margin: 0;
-
-  line-height: 18px;
 }
 
 .card__button {
