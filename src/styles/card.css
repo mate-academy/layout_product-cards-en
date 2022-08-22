@@ -1,0 +1,105 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  background-color: #fff;
+}
+
+.card__img {
+  margin-bottom: 28px;
+  margin-left: 3px;
+
+  width: 160px;
+  height: 134px;
+}
+
+.title {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #060b35;
+}
+
+.card__title {
+  margin-bottom: -6px;
+}
+
+.product-code {
+  font-size: 10px;
+  line-height: 14px;
+  color: #616070;
+}
+
+.card__product-code {
+  margin-bottom: 4px;
+}
+
+.reviews {
+  font-size: 10px;
+  line-height: 14px;
+  color: #060b35;
+}
+
+.card__reviews {
+  margin-top: 2px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.text {
+  font-size: 12px;
+  line-height: 18px;
+  color: #616070;
+}
+
+.num {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #060b35;
+}
+
+.price__num {
+  width: 50px;
+  height: 18px;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  background: #00acdc;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.card__button {
+  margin-top: 16px;
+  width: 166px;
+  height: 40px;
+}
+
+.card:hover .button {
+  border: 1px solid #00acdc;
+  background: #fff;
+  color: #00acdc;
+}
