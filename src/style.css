@@ -1,4 +1,10 @@
 /* stylelint-disable color-hex-case */
+html {
+  --blue-color: #00ACDC;
+  --reviews-color: #060b35;
+  --grey-color: #616070;
+}
+
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
@@ -25,15 +31,14 @@ body {
   font-size: 12px;
   line-height: 18px;
   font-weight: 500;
-  color: #060B35;
+  color: var(--reviews-color);
   margin: 0 0 4px;
-  font-style: medium;
 }
 
 .card__code {
   font-size: 10px;
   line-height: 14px;
-  color: #616070;
+  color: var(--grey-color);
   margin-bottom: 16px;
 }
 
@@ -73,7 +78,7 @@ body {
 .card__reviews {
   font-size: 10px;
   line-height: 14px;
-  color: #060B35;
+  color: var(--reviews-color);
 }
 
 .card__price {
@@ -85,7 +90,7 @@ body {
 .price-label {
   font-size: 12px;
   line-height: 18px;
-  color: #616070;
+  color: var(--grey-color);
 }
 
 .price {
@@ -100,10 +105,10 @@ body {
   justify-content: center;
   box-sizing: border-box;
   height: 40px;
-  border: 1px solid #00ACDC;
+  border: 1px solid var(--blue-color);
   border-radius: 5px;
   align-items: center;
-  background-color: #00ACDC;
+  background-color: var(--blue-color);
   color: #fff;
   font-size: 14px;
   font-weight: 700;
@@ -113,5 +118,5 @@ body {
 
 .card__link--active:hover {
   background-color: #fff;
-  color: #00ACDC;
+  color: var(--blue-color);
 }
