@@ -4,7 +4,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.card_block {
+.card {
   box-sizing: border-box;
   width: 200px;
   border: 1px solid #f3f3f3;
@@ -14,14 +14,14 @@ body {
 
 }
 
-.card_image {
+.card__image {
   display: block;
   width: 160px;
   height: 134px;
   margin: 0 auto 40px;
 }
 
-.advert-title {
+.card__title {
   font-size: 12px;
   line-height: 18px;
   font-weight: 500;
@@ -30,14 +30,14 @@ body {
   font-style: medium;
 }
 
-.product-code {
+.card__code {
   font-size: 10px;
   line-height: 14px;
   color: #616070;
   margin-bottom: 16px;
 }
 
-.product-review {
+.card__review {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -70,13 +70,13 @@ body {
   background-image: url(./images/star-active.svg);
 }
 
-.reviews {
+.card__reviews {
   font-size: 10px;
   line-height: 14px;
   color: #060B35;
 }
 
-.price-container {
+.card__price {
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
@@ -94,7 +94,7 @@ body {
   font-weight: 700;
 }
 
-.buy-link {
+.card__link {
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -111,7 +111,7 @@ body {
   text-transform: uppercase;
 }
 
-.buy-link:hover {
+.card__link--active:hover {
   background-color: #fff;
   color: #00ACDC;
 }
