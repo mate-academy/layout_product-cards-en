@@ -1,5 +1,3 @@
-@import "./stars.css";
-
 .productCards {
   display: flex;
   margin: 50px 40px;
@@ -40,8 +38,8 @@
 
   background: #fff;
   color: #060b35;
-  border: 1px solid #f3f3f3;
-  border-radius: 5px;
+  border: var(--border-similar) #f3f3f3;
+  border-radius: var(--border-radius-curve);
 }
 
 .card__image {
@@ -79,15 +77,8 @@
 }
 
 .card__price-tag {
-  margin: 0;
-
   font-weight: 400;
   color: #616070;
-}
-
-.card__review,
-.card__price-figure {
-  margin: 0;
 }
 
 .card__button {
@@ -96,11 +87,12 @@
 
   display: flex;
 
+  width: 166px;
   height: 40px;
-  border-radius: 5px;
-  border: 1px solid transparent;
+  border-radius: var(--border-radius-curve);
+  border: var(--border-similar) transparent;
 
-  background-color: #00acdc;
+  background-color: var(--color-button-blue);
 
   font-size: 14px;
   line-height: 16px;
@@ -111,7 +103,7 @@
 }
 
 .card__button:hover {
-  border-color: #00acdc;
+  border-color: var(--color-button-blue);
   background-color: #fff;
-  color: #00acdc;
+  color: var(--color-button-blue);
 }

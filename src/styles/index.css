@@ -8,4 +8,6 @@ html {
   font-style: normal;
 }
 
+@import "./variables.css";
 @import "./card.css";
+@import "./stars.css";
