@@ -1,4 +1,8 @@
 /* stylelint-disable color-hex-case */
+* {
+  margin: 0;
+}
+
 html {
   --blue-color: #00ACDC;
   --reviews-color: #060b35;
@@ -6,13 +10,12 @@ html {
 }
 
 body {
-  margin: 0;
   font-family: Roboto, sans-serif;
+  width: 200px;
 }
 
 .card {
   box-sizing: border-box;
-  width: 200px;
   border: 1px solid #f3f3f3;
   background: white;
   border-radius: 5px;
@@ -39,13 +42,14 @@ body {
   font-size: 10px;
   line-height: 14px;
   color: var(--grey-color);
-  margin-bottom: 16px;
+  margin-top: 4px;
 }
 
 .card__review {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  margin-top: 16px;
   margin-bottom: 24px;
 
 }
