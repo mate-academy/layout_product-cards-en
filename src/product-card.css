@@ -23,7 +23,6 @@
 }
 
 .product-card__title {
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
@@ -32,7 +31,6 @@
 }
 
 .product-card__product-code {
-  font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
@@ -63,7 +61,6 @@
 }
 
 .product-card__price-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -96,7 +93,6 @@
   border-radius: 5px;
   background-color: var(--bg-color-blue);
   color: var(--bg-color-white);
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
