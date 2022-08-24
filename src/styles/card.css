@@ -1,5 +1,14 @@
 @import "./stars.css";
 
+.productCards {
+  display: flex;
+  margin: 50px 40px;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
 .textSmall {
   font-size: 10px;
   font-weight: 400;
@@ -22,14 +31,17 @@
 }
 
 .card {
-  flex-direction: column;
-
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 
+  width: 200px;
+  padding: 16px;
+
+  background: #fff;
+  color: #060b35;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  padding: 32px 16px 16px;
-  width: 200px;
 }
 
 .card__image {
@@ -37,17 +49,17 @@
 
   display: flex;
 
-  margin: 0 auto 40px;
+  margin: 16px auto 40px;
   width: 160px;
   height: 134px;
 }
 
 .card__title {
-  margin: 0 0 4px;
+  margin-bottom: 4px;
 }
 
 .card__pcode {
-  margin: 0 0 16px;
+  margin-bottom: 16px;
 }
 
 .card__rating {
@@ -69,8 +81,6 @@
 .card__price-tag {
   margin: 0;
 
-  font-size: 12px;
-  line-height: 18px;
   font-weight: 400;
   color: #616070;
 }
@@ -86,7 +96,6 @@
 
   display: flex;
 
-  width: 166px;
   height: 40px;
   border-radius: 5px;
   border: 1px solid transparent;
