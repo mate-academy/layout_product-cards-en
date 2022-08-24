@@ -1,0 +1,22 @@
+.payment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.payment__tag {
+  font-size: var(--font-mid);
+  line-height: var(--line-big);
+  color: var(--color-gray);
+  margin: 0;
+  padding: 0;
+}
+
+.payment__amount {
+  font-weight: 700;
+  font-size: var(--font-jumbo);
+  line-height: var(--line-big);
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,8 @@
+@import "./variables.css";
+
+@import "./blocks/page.css";
+@import "./blocks/card.css";
+@import "./blocks/star.css";
+@import "./blocks/price.css";
+@import "./blocks/button.css";
+@import "./blocks/title.css";
