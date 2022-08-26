@@ -1,10 +1,27 @@
-.card {
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.page {
+  margin: 0;
+}
+
+.page__card {
   width: 200px;
+}
+
+.card {
   border: 1px solid #f3f3f3;
 
   border-radius: 5px;
-  display: flex;
+  display: block;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
 
   padding: 32px 16px 16px;
 }
@@ -13,4 +30,49 @@
   width: 160px;
   height: 134px;
   margin-left: 3px;
+}
+
+.tittle1 {
+  font-weight: 500;
+  font-size: var(--font-mid);
+  line-height: var(--line-big);
+
+  color: var(--color-dark-blue);
+  margin-top: 36px;
+
+  margin-bottom: 0;
+}
+
+.tittle2 {
+  font-weight: var(--font-weight-small);
+  font-size: var(--font-small);
+  line-height: var(--line-small);
+
+  color: var( --color-gray);
+  margin-top: 4px;
+
+  margin-bottom: 16px;
+}
+
+.payment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.payment__tag {
+  font-size: var(--font-mid);
+  line-height: var(--line-big);
+  color: var(--color-gray);
+  margin: 0;
+  padding: 0;
+}
+
+.payment__amount {
+  font-weight: 700;
+  font-size: var(--font-jumbo);
+  line-height: var(--line-big);
+  margin: 0;
+  padding: 0;
 }

@@ -1,4 +1,4 @@
-.buy {
+.card__buy {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@
   line-height: var(--line-middle);
 }
 
-.buy:hover {
+.card__buy:hover {
   background-color: #fff;
   color: var(--color-blue);
   border-color: var(--color-blue);
