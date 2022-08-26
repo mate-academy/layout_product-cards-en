@@ -1,0 +1,140 @@
+@import "./stars.css";
+
+.productCard__card {
+  width: 198px;
+  height: 406px;
+
+}
+
+.card {
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
+}
+
+.card__image {
+  margin: 32px 19px 0;
+  width: 160px;
+  height: 134px;
+}
+
+.image {
+  background-image: url("./images/imac.jpeg");
+  background-size: 160px 134px;
+  background-repeat: no-repeat;
+}
+
+.card__title {
+  margin: 40px 16px 0;
+}
+
+.title {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #060b35;
+  font-weight: 500;
+}
+
+.card__code {
+  margin: 4px 16px 0;
+}
+
+.code {
+  font-size: 10px;
+  line-height: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #616070;
+  font-weight: 400;
+}
+
+.stars {
+  display: flex;
+  margin: 0 17px 0 16px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.smallFont {
+  font-size: 10px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #060b35;
+  text-align: right;
+  width: 53px;
+}
+
+.card__review {
+  height: 16px;
+  margin-top: 16px;
+  display: flex;
+  width: 198px;
+}
+
+.card__cost {
+  display: flex;
+  height: 18px;
+  margin: 24px 0 16px;
+  padding: 0 17px 0 16px;
+  justify-content: space-between;
+}
+
+.mediumFont {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 18px;
+  color: #616070;
+}
+
+.largeFont {
+  font-size: 16px;
+  font-weight: 700400;
+  font-family: "Roboto", sans-serif;
+  line-height: 18px;
+  color: #060b35;
+}
+
+.card__button {
+  width: 164px;
+  height: 38px;
+  margin: 0 16px 16px;
+
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #00acdc;
+  border: 1px solid #00acdc;
+  position: relative;
+}
+
+.label {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 11px;
+}
+
+.card__button:hover {
+  box-sizing: border-box;
+  width: 166px;
+  height: 40px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #00acdc;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link:hover {
+  color: #00acdc;
+}
