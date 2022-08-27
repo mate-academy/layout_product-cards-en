@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+html {
+  font-family: Roboto , sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  --main-color: #00acdc;
+  --text-accent-color: #060b35;
+  --text-secondary-color: #616070;
+}
+
+.card {
+  border: 1px solid #f3f3f3;
+  width: 200px;
+  border-radius: 5px;
+  padding: 32px 16px 16px;
+  box-sizing: border-box;
+}
+
+.card__photo {
+  display: block;
+  width: 160px;
+  height: 134px;
+  margin: 0 auto 40px;
+}
+
+.card__title {
+  color: var(--text-accent-color);
+  font-weight: 500;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.card__text {
+  margin: 0;
+  line-height: 14px;
+  color: var(--text-secondary-color);
+}
