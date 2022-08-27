@@ -1,0 +1,13 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.page__content {
+  margin: 0;
+}
