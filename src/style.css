@@ -38,6 +38,7 @@ body {
 .card__productCode {
   font-size: 10px;
   line-height: 14px;
+  margin-top: 0;
   margin-bottom: 16px;
 
   color: #616070;
@@ -75,6 +76,7 @@ body {
 .card__review-count {
   line-height: 14px;
   font-size: 10px;
+  margin: 0;
 
   color: #060b35;
 }
@@ -97,6 +99,7 @@ body {
 .card__price-label {
   line-height: 18px;
   font-size: 12px;
+  margin: 0;
 
   color: #616070;
 }
@@ -105,6 +108,7 @@ body {
   line-height: 18px;
   font-weight: bold;
   font-size: 16px;
+  margin: 0;
 
   color: #060b35;
 }
