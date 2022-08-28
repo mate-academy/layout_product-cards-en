@@ -32,7 +32,7 @@ html {
   margin-left: 3px;
 }
 
-.tittle1 {
+.card__tittle1 {
   font-weight: 500;
   font-size: var(--font-mid);
   line-height: var(--line-big);
@@ -43,7 +43,7 @@ html {
   margin-bottom: 0;
 }
 
-.tittle2 {
+.card__tittle2 {
   font-weight: var(--font-weight-small);
   font-size: var(--font-small);
   line-height: var(--line-small);
@@ -54,7 +54,7 @@ html {
   margin-bottom: 16px;
 }
 
-.payment {
+.card__payment {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,4 +75,32 @@ html {
   line-height: var(--line-big);
   margin: 0;
   padding: 0;
+}
+
+.card__buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color-blue);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  list-style: none;
+
+  height: 40px;
+  width: 166px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+
+  font-weight: 700;
+  font-size: var(--font-big);
+  line-height: var(--line-middle);
+}
+
+.card__buy:hover {
+  background-color: #fff;
+  color: var(--color-blue);
+  border-color: var(--color-blue);
 }
