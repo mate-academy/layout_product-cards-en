@@ -15,12 +15,3 @@
 .stars__star:nth-child(-n+4) {
   background-image: url("../../images/star-active.svg");
 }
-
-.rate__reviews {
-  color: var(--color-dark-blue);
-  line-height: var(--line-small);
-  font-weight: var(--font-weight-small);
-  font-size: var(--font-small);
-  margin: 0;
-  padding: 0;
-}

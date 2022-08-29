@@ -2,6 +2,8 @@
 
 @import "./blocks/card.css";
 @import "./blocks/star.css";
+@import "./blocks/payment.css";
+@import "./blocks/rate.css";
 
 * {
   box-sizing: border-box;
