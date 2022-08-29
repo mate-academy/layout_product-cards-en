@@ -1,0 +1,10 @@
+:root {
+  --blue: #00acdc;
+  --grey: #616070;
+  --dark: #060b35;
+}
+
+@import "./reset.css";
+@import "./card.css";
+@import "./price.css";
+@import "./stars.css";
