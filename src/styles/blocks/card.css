@@ -1,0 +1,82 @@
+.card {
+  border: 1px solid #f3f3f3;
+
+  border-radius: 5px;
+  display: block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  padding: 32px 16px 16px;
+
+}
+
+.card__image {
+  width: 160px;
+  height: 134px;
+  margin-left: 3px;
+}
+
+.card__title1 {
+  font-weight: 500;
+  font-size: var(--font-mid);
+  line-height: var(--line-big);
+
+  color: var(--color-dark-blue);
+  margin-top: 36px;
+
+  margin-bottom: 0;
+}
+
+.card__title2 {
+  font-weight: var(--font-weight-small);
+  font-size: var(--font-small);
+  line-height: var(--line-small);
+
+  color: var( --color-gray);
+  margin-top: 4px;
+
+  margin-bottom: 16px;
+}
+
+.card__rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.card__payment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card__buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color-blue);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  list-style: none;
+
+  height: 40px;
+  width: 166px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+
+  font-weight: 700;
+  font-size: var(--font-big);
+  line-height: var(--line-middle);
+}
+
+.card__buy:hover {
+  background-color: #fff;
+  color: var(--color-blue);
+  border-color: var(--color-blue);
+}

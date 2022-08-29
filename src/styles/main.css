@@ -1,0 +1,22 @@
+@import "./variables.css";
+
+@import "./blocks/card.css";
+@import "./blocks/star.css";
+@import "./blocks/payment.css";
+@import "./blocks/rate.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.page {
+  margin: 0;
+}
+
+.page__card {
+  width: 200px;
+}
