@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Product cards</title>
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Nunito:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="./style/index.css">
   </head>
   <body>
     <div class="card" data-qa="card">
       <img
         src="./images/imac.jpeg"
         alt="imac"
-        class="imac"
+        class="card__imac"
       >
 
       <p class="card__text">
@@ -35,18 +36,12 @@
         </p>
       </div>
 
-      <div class="card__price">
-        <p class="price">Price:</p>
+      <div class="card__price price">
+        <p class="price__text">Price:</p>
 
-        <p class="num">$2,199</p>
+        <p class="price__num">$2,199</p>
       </div>
 
-      <!-- '<button
-        class="card__button"
-        data-qa="hover"
-      >
-       BUY
-      </button>' -->
       <a
         href="button"
         class="card__button"
