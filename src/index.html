@@ -24,43 +24,46 @@
     >
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     >
+
   </head>
   <body>
-    <section class="productCard">
-      <section class="productCard__card card" data-qa="card">
-        <div class="card__image image">
+    <section class="card" data-qa="card">
+      <img
+        class="card__image image"
+        src="./images/imac.jpeg"
+        alt="apple desktop computer">
+
+      <p class="card__title title">
+        APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+      </p>
+
+      <p class="card__code code">Product code: 195434</p>
+
+      <div class="card__review review">
+        <div class="stars stars--4">
+          <div class="stars__star"></div>
+          <div class="stars__star"></div>
+          <div class="stars__star"></div>
+          <div class="stars__star"></div>
+          <div class="stars__star"></div>
         </div>
-        <h3 class="card__title title">
-          APPLE A1419 iMac 27" Retina 5k Monoblock (MNED2UA/A)
-        </h3>
-        <div class="card__code code">Product code: 195434</div>
-        <div class="card__review review">
-          <div class="stars stars--4">
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-            <div class="stars__star"></div>
-          </div>
-          <div class="smallFont">Reviews: 5</div>
-        </div>
-        <div class="card__cost cost">
-          <div class="mediumFont">Price:</div>
-          <div class="largeFont">$2,199</div>
-        </div>
-        <div class="card__button button">
-          <a
-            href="#"
-            class="link"
-            data-qa="hover"
-          >
-            <div class="label">BUY</div>
-          </a>
-        </div>
-      </section>
+        <p class="smallFont">Reviews: 5</p>
+      </div>
+
+      <div class="card__cost cost">
+        <p class="mediumFont">Price:</p>
+        <p class="largeFont">$2,199</p>
+      </div>
+
+      <a
+        href="#"
+        class="card__button button"
+        data-qa="hover">
+        BUY
+      </a>
     </section>
   </body>
 </html>
