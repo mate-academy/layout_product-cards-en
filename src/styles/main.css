@@ -2,3 +2,19 @@
 
 @import "./blocks/card.css";
 @import "./blocks/star.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.page {
+  margin: 0;
+}
+
+.page__card {
+  width: 200px;
+}
