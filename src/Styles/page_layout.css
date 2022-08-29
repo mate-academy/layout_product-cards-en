@@ -5,7 +5,7 @@
   color: var(--card-color-text);
 }
 
-.page__content {
+body {
   width: 200px;
   margin: 0;
 }
