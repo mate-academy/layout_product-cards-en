@@ -3,6 +3,9 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+html {
   font-family: "Roboto", sans-serif;
 }
 
@@ -35,7 +38,7 @@
 .card__code {
   display: flex;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
@@ -75,7 +78,7 @@
 }
 
 .card__review {
-  font-style: normal;
+
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
@@ -92,7 +95,7 @@
 
 .price {
   display: flex;
-  font-style: normal;
+
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -108,18 +111,19 @@
 }
 
 .card__button {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
+  align-items: center;
+  text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   background-color: #00acdc;
   border-radius: 5px;
   border: transparent;
   width: 166px;
-  height: 40px;
+  padding: 12px 0;
 }
 
 .card:hover .card__button {
