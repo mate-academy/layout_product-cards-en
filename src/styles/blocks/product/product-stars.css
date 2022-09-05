@@ -1,0 +1,7 @@
+.product-stars {
+  display: inline-flex;
+}
+
+.product-stars__star:not(:last-child) {
+  margin-right: 4px;
+}

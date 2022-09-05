@@ -1,0 +1,24 @@
+@import "./variables.css";
+@import "./reset.css";
+
+@import "./blocks/page.css";
+@import "./blocks/content.css";
+
+@import "./blocks/product/card.css";
+
+@import "./blocks/product/image-wrapper.css";
+@import "./blocks/product/product-image.css";
+
+@import "./blocks/product/product-title.css";
+@import "./blocks/product/product-code.css";
+
+@import "./blocks/product/rating-wrapper.css";
+@import "./blocks/product/product-stars.css";
+@import "./blocks/product/star.css";
+@import "./blocks/product/product-reviews.css";
+
+@import "./blocks/product/price-wrapper.css";
+@import "./blocks/product/product-price.css";
+@import "./blocks/product/product-quantity.css";
+
+@import "./blocks/product/product-button.css";
