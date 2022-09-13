@@ -1,6 +1,15 @@
 .page {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 12px;
+  font-weight: 500;
   line-height: 18px;
   color: var(--primary-color);
+}
+
+.page__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
 }

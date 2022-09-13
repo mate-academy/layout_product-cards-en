@@ -9,45 +9,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
 
-  <body class="content">
-    <div class="card" data-qa="card">
-      <div class="card__image-wrapper">
-        <img
-          class="product-image"
-          src="./images/imac.jpeg"
-          alt="Apple iMac"
-        >
-      </div>
+  <body class="page__content">
+    <div data-qa="card" class="card">
+      <img
+        class="card__image"
+        src="./images/imac.jpeg"
+        alt="Apple iMac"
+      >
 
-      <h2 class="card__product-title">APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)</h2>
+      <h2 class="card__title">
+        APPLE A1419 iMac 27" Retina
+        <br>
+        5K Monoblock (MNED2UA/A)
+      </h2>
 
       <p class="card__product-code">Product code: 195434</p>
 
-      <div class="card__rating-wrapper">
-        <div class="product-stars">
-          <div class="star product-stars__star"></div>
-          <div class="star product-stars__star"></div>
-          <div class="star product-stars__star"></div>
-          <div class="star product-stars__star"></div>
-          <div class="star product-stars__star"></div>
+      <div class="card__wrapper-rating">
+        <div class="card__stars">
+          <div class="card__star"></div>
+          <div class="card__star"></div>
+          <div class="card__star"></div>
+          <div class="card__star"></div>
+          <div class="card__star"></div>
         </div>
 
-        <p class="product-reviews">Reviews: 5</p>
+        <p class="card__reviews">Reviews: 5</p>
       </div>
 
-      <div class="card__price-wrapper">
-        <p class="product-price">Price:</p>
-
-        <p class="product-quantity">$2,199</p>
+      <div class="card__wrapper-price">
+        <p class="card__price-tag">Price:</p>
+        
+        <p class="card__quantity">$2,199</p>
       </div>
 
       <a
-        class="card__button"
-        type="button"
-        href="#"
         data-qa="hover"
-      >
-        Buy
+        class="card__button"
+        href="#"
+        type="button"
+      >Buy
       </a>
     </div>
   </body>
