@@ -38,24 +38,6 @@
   margin-bottom: 24px;
 }
 
-.card__stars {
-  display: flex;
-}
-
-.card__star {
-  width: 16px;
-  height: 16px;
-
-  background-image: url(../../images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.card__stars--4 :nth-child(-n + 4) {
-  margin-right: 4px;
-  background-image: url(../../images/star-active.svg);
-}
-
 .card__reviews {
   font-size: 10px;
   line-height: 14px;
