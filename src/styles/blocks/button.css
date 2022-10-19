@@ -1,4 +1,4 @@
-.product-card__button {
+.button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@
   margin: 16px;
 }
 
-.product-card__link {
+.button__link {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
@@ -20,10 +20,10 @@
   line-height: 16px;
 }
 
-.product-card__button:hover {
+.button:hover {
   background-color: white;
 }
 
-.product-card__button:hover .product-card__link {
+.button:hover .button__link {
   color: #00acdc;
 }

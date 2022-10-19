@@ -6,7 +6,7 @@
     <meta name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Product cards</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
   <body>
     <div class="product-card">
       <img
-        src="images/imac.jpeg"
+        src="styles/images/imac.jpeg"
         alt="imac"
         class="product-card__picture-imac"
       >
@@ -25,31 +25,32 @@
       <p class="product-card__code">
         Product code: 195434
       </p>
-      <div class="product-card__rating" data-qa="card">
-        <div class="product-card__rating-stars">
-          <div class="product-card__rating-stars-4"></div>
-          <div class="product-card__rating-stars-4"></div>
-          <div class="product-card__rating-stars-4"></div>
-          <div class="product-card__rating-stars-4"></div>
-          <div class="product-card__rating-stars-1"></div>
+      <div class="rating" data-qa="card">
+        <div class="rating__stars">
+          <div class="rating__rating-stars-4"></div>
+          <div class="rating__rating-stars-4"></div>
+          <div class="rating__rating-stars-4"></div>
+          <div class="rating__rating-stars-4"></div>
+          <div class="rating__rating-stars-1"></div>
         </div>
-        <div class="product-card__rating-text">
-          <p class="product-card__rating-reviews">Reviews: 5</p>
+        <div class="rating__text">
+          <p class="rating__text-reviews">Reviews: 5</p>
         </div>
       </div>
-      <div class="product-card__price">
-        <div class="product-card__price-text">
+      <div class="price">
+        <div class="price__text">
           <p>Price</p>
         </div>
-        <div class="product-card__price-number">
+        <div class="price__number">
           <p>$2,199</p>
         </div>
       </div>
-      <div class="product-card__button">
+      <div class="button">
         <a
-          class="product-card__link"
+          class="button__link"
           href="/"
-          data-qa="hover">
+          data-qa="hover"
+        >
            Buy
         </a>
       </div>
