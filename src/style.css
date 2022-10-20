@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+@import "./description.css";
+
+@import "./rating.css";
+
+@import "./price.css";
+
+@import "./button.css";
