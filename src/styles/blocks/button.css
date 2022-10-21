@@ -1,4 +1,4 @@
-.button {
+.button__content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,10 +20,10 @@
   line-height: 16px;
 }
 
-.button:hover {
+.button__content:hover {
   background-color: white;
 }
 
-.button:hover .button__link {
+.button__content:hover .button__link {
   color: #00acdc;
 }
