@@ -1,0 +1,121 @@
+.card {
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  width: 200px;
+  padding: 32px 16px 16px 16px;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.card__image {
+  width: 160px;
+  height: 134px;
+  background: url(../images/imac.jpeg);
+  background-size: cover;
+}
+
+.card__product_name {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #060B35;
+}
+
+.card__product_code {
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-size: 10px;
+  line-height: 14px;
+  color: #616070;
+}
+
+/* #region Reviews */
+.card__reviews_group {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_reviews {
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  color: #060B35;
+}
+/* #endregion */
+
+/* #region Stars */
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+  background: url(../images/star.svg) no-repeat center;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.stars--5 .stars__star:nth-child(-n + 5),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--1 .stars__star:nth-child(-n + 1) {
+  background: url(../images/star-active.svg) no-repeat center;
+}
+/* #endregion */
+
+/* #region Price */
+.card__price_group {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__price {
+  font-size: 12px;
+  line-height: 18px;
+  color: #616070;
+}
+
+.card__tag {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #060B35;
+}
+/* #endregion */
+
+/* #region Button */
+.card__button {
+  height: 40px;
+  margin-top: 16px;
+  background-color: #00ACDC;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card__button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.card__button_name {
+  height: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* #endregion */
