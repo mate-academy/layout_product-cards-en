@@ -13,8 +13,6 @@
   align-self: center;
   width: 160px;
   height: 134px;
-  background: url(../images/imac.jpeg);
-  background-size: cover;
 }
 
 .card__product_name {
@@ -111,7 +109,7 @@
 
 .card__button:hover {
   background-color: #fff;
-  color: #000;
+  color: #00acdc;
   border: 1px solid #00acdc;
 }
 
