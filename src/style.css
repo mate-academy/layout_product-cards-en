@@ -4,6 +4,7 @@ html {
   font-style: normal;
   font-weight: 400;
   color: #060b35;
+  line-height: 14px;
 }
 
 body {
@@ -19,7 +20,6 @@ body {
   border: 1px solid #f3f3f3;
   border-radius: 5px;
   padding: 32px 16px 16px;
-  line-height: 14px;
 }
 /* #endregion */
 
@@ -42,7 +42,6 @@ body {
   font-size: 10px;
   color: #616070;
   margin-bottom: 16px;
-  line-height: 14px;
 }
 
 /* #region stars */
@@ -55,7 +54,6 @@ body {
 
 .reviews {
   font-size: 10px;
-  line-height: 14px;
 }
 
 .stars {
