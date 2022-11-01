@@ -2,53 +2,52 @@ body {
   margin: 0;
 }
 
-* {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+html {
+  font-family: Roboto, sans-serif;
+  --main-color: #00acdc;
+  --text-accent-color: #060b35;
+  --text-secondary-color: #616070;
+  color: var(--text-secondary-color);
+  font-size: 10px;
+  line-height: 14px;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
   width: 200px;
   background-color: #fff;
   border: 1px solid #f3f3f3;
-  border-radius: 8px;
-  padding: 16px;
+  border-radius: 5px;
+  padding: 32px 16px 16px;
 }
 
 .card__product-image {
-  max-width: 180px;
-  margin: 16px auto;
+  display: block;
+  margin: 0 auto 40px;
+  width: 160px;
+  height: 134px;
 }
 
 .card__title {
-  color: #060b35;
-  font-style: normal;
+  margin: 0 0 4px;
+  font-size: 12px;
+  line-height: 18px;
   font-weight: 500;
-  font-size: 16px;
-  margin: 8px 0;
+  color: var(--text-accent-color);
 }
 
 .card__product-code {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  margin: 0;
-  color: #616070;
+  margin: 0 0 16px;
 }
 
 .stars__review {
-  color: #060b35;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  margin: 0;
+  color: var(--text-accent-color);
 }
 
 .stars {
   display: flex;
   justify-content: space-between;
-  margin: 16px 0;
+  margin: 0 0 24px;
   align-items: center;
 }
 
@@ -79,38 +78,40 @@ body {
 .price {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 0 0 16px;
 }
 
 .price__title {
-  color: #616070;
-  font-weight: 400;
-  font-size: 14px;
+  line-height: 18px;
+  font-size: 12px;
 }
 
 .price__Amount {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 16px;
-  color: #060b35;
+  line-height: 18px;
+  color: var(--text-accent-color);
 }
 
 .card__button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  box-sizing: border-box;
   height: 40px;
-  border-radius: 4px;
-  background-color: #00acdc;
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 16px;
   color: #fff;
+  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-  margin-top: 16px;
-  font-weight: 700;
-  font-size: 14px;
+  background-color: var(--main-color);
 }
 
 .card__button:hover {
+  color: var(--main-color);
   background-color: #fff;
-  color: #00acdc;
-  border: 1px solid #00acdc;
 }
