@@ -6,17 +6,22 @@
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
   min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
 }
 
 .card {
+  box-sizing: border-box;
+
   width: 200px;
   padding: 32px 16px 16px;
+
   background-color: #fff;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  box-sizing: border-box;
 }
 
 .card__image {
@@ -31,16 +36,13 @@ body {
   font-size: 12px;
   line-height: 18px;
   color: var(--main-accent);
-  margin: 0;
+  margin-bottom: 4px;
 }
 
 /* #region Product Code */
 .card__product-code {
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 14px;
   color: var(--secondary);
-  margin: 4px 0 16px;
+  margin-bottom: 16px;
 }
 
 /* #endregion */
@@ -50,7 +52,8 @@ body {
 .card__review-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
+  margin-bottom: 24px;
 }
 
 .stars {
@@ -79,9 +82,6 @@ body {
 }
 
 .card__review-text {
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 14px;
   color: var(--main-accent);
 }
 
@@ -91,7 +91,7 @@ body {
 .card__price-wrapper {
   display: flex;
   justify-content: space-between;
-  margin: 24px 0 16px;
+  margin-bottom: 16px;
 }
 
 .card__price-label {
