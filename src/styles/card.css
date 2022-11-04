@@ -17,7 +17,7 @@
   height: 134px;
 }
 
-.card__specifics {
+.card__specs {
   display: flex;
   flex-direction: column;
   padding: 0 16px;
