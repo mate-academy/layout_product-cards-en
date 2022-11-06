@@ -92,7 +92,7 @@
   border-radius: 5px;
   color: #fff;
   border: 1px solid var(--linkColor);
-  transition: background-color 1s, color 1s;
+  /* transition: background-color 1s, color 1s; */
 }
 
 .card__link:hover {
