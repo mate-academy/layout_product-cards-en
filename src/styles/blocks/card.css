@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.fullCard {
+  display: flex;
+  flex-direction: column;
+  width: 198px;
+  justify-content: center;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+}
