@@ -2,20 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta 
+    <meta
       name="viewport"
       content="
-        width=device-width, 
-        user-scalable=no, 
-        initial-scale=1.0, 
-        maximum-scale=1.0, 
+        width=device-width,
+        user-scalable=no,
+        initial-scale=1.0,
+        maximum-scale=1.0,
         minimum-scale=1.0
       "
     >
-    <title>Product cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <title>Card</title>
   </head>
   <body>
-    <h1>Product cards</h1>
+    <div class="card" data-qa="card">
+      <div class="card__product"></div>
+
+      <div class="card__price">
+        <p class="card__price-title">Price:</p>
+        <p class="card__price-price">$2,199</p>
+      </div>
+
+      <div class="card__button">
+        <a class="card__button-text" href="#">Buy</a>
+      </div>
+    </div>
   </body>
 </html>
