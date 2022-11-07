@@ -1,1 +1,4 @@
-/* empty source */
+@import url(./variables.css);
+@import url(./page.css);
+@import url(./style-card.css);
+@import url(./style-stars.css);
