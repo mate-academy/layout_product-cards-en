@@ -1,0 +1,9 @@
+/* empty source */
+
+@import "./variable.css";
+
+@import "./blocks/normalize.css";
+
+@import "./blocks/stars.css";
+
+@import "./blocks/card.css";
