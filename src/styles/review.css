@@ -1,9 +1,0 @@
-.review {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 18px;
-}
-
-.review__count {
-  font-size: 10px;
-}
