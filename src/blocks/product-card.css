@@ -94,7 +94,7 @@ body {
 
   cursor: pointer;
   background: var(--color-blue);
-  border: 1px solid var(--color-blue);
+  border: 1px solid transparent;
   border-radius: 5px;
 
   transition: all 0.3s ease;
@@ -102,5 +102,6 @@ body {
 
 .card__button:hover {
   color: var(--color-blue);
+  border-color: var(--color-blue);
   background: #fff;
 }
