@@ -1,0 +1,12 @@
+@import "./card.css";
+@import "./stars.css";
+
+html {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  width: 200px;
+}
