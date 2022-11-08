@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta 
+    <meta
       name="viewport"
       content="
-        width=device-width, 
-        user-scalable=no, 
-        initial-scale=1.0, 
-        maximum-scale=1.0, 
+        width=device-width,
+        user-scalable=no,
+        initial-scale=1.0,
+        maximum-scale=1.0,
         minimum-scale=1.0
       "
     >
@@ -16,6 +16,39 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>Product cards</h1>
+    <div class="card" data-qa="card">
+      <img
+        class="card__product-image"
+         src="./images/imac.jpeg"
+         alt="productImage"
+      >
+
+      <h2 class="card__title">APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)</h2>
+      <p class="card__product-code">Product code: 195434</p>
+
+      <div class="review">
+        <div class="review__stars review__stars_star--4">
+          <div class="review__star"></div>
+          <div class="review__star"></div>
+          <div class="review__star"></div>
+          <div class="review__star"></div>
+          <div class="review__star"></div>
+        </div>
+        <span class="review__total">Reviews: 5</span>
+      </div>
+
+      <div class="card__price">
+        <p class="card__price-Title">Price:</p>
+        <p class="card__price-Amount">$2,199</p>
+      </div>
+
+      <a
+        data-qa="hover"
+        href="#"
+        class="card__button"
+      >
+        buy
+      </a>
+    </div>
   </body>
 </html>
