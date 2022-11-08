@@ -82,10 +82,11 @@
   text-decoration: none;
   color: #fff;
   background-color: var(--button-blue-theme) ;
+  border: 1px solid transparent;
 }
 
 .product-card__button:hover {
   background-color: #fff;
   color: var(--button-blue-theme);
-  border: 1px solid var(--button-blue-theme);
+  border-color: var(--button-blue-theme);
 }
