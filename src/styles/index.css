@@ -1,6 +1,8 @@
+@import "./blocks/body.css";
+
 @import "./blocks/stars.css";
 
-@import "./blocks/card.css";
+@import "./blocks/fullCard.css";
 
 @import "./blocks/image.css";
 
