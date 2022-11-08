@@ -3,7 +3,8 @@
 }
 
 .stars__star {
-  padding: 8px;
+  width: 16px;
+  height: 16px;
   margin-right: 4px;
   background-image: url(../images/star.svg);
   background-repeat: no-repeat;
