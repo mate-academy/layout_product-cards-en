@@ -10,6 +10,10 @@
   background: white;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
+
+  --color-navy-blue: #060b35;
+  --color-blue: #00acdc;
+  --color-light-gray: #616070;
 }
 
 .card__image {
@@ -35,7 +39,7 @@
   line-height: 18px;
   margin-top: 40px;
 
-  color: #060b35;
+  color: var(--color-navy-blue);
 }
 
 .card__text--2 {
@@ -46,7 +50,7 @@
   line-height: 14px;
   margin-top: 4px;
 
-  color: #616070;
+  color: var(--color-light-gray);
 }
 
 .card__rate {
@@ -55,29 +59,6 @@
   justify-content: space-between;
   margin-top: 16px;
   width: 166px;
-}
-
-.stars {
-  display: flex;
-  line-height: 14px;
-}
-
-.stars__star {
-  display: flex;
-  background-image: url(/images/star.svg);
-  width: 16px;
-  height: 16px;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 2px;
-}
-
-.stars--1 .stars__star:nth-child(-n+1),
-.stars--2 .stars__star:nth-child(-n+2),
-.stars--3 .stars__star:nth-child(-n+3),
-.stars--4 .stars__star:nth-child(-n+4),
-.stars--5 .stars__star:nth-child(-n+5) {
-  background-image: url(/images/star-active.svg);
 }
 
 .card__rate-review {
@@ -92,7 +73,7 @@
   text-align: right;
   justify-content: flex-end;
 
-  color: #060b35;
+  color: var(--color-navy-blue);
 
   flex: none;
   order: 1;
@@ -120,7 +101,7 @@
 
   font-weight: 400;
   font-size: 12px;
-  color: #616070;
+  color: var(--color-light-gray);
 }
 
 .card__price-num {
@@ -132,7 +113,7 @@
 
   justify-content: flex-end;
   text-align: right;
-  color: #060b35;
+  color: var(--color-navy-blue);
 }
 
 .card__link {
@@ -149,8 +130,8 @@
   line-height: 16px;
   text-align: center;
 
-  background: #00acdc;
-  border: 1px solid #00acdc;
+  background: var(--color-blue);
+  border: 1px solid var(--color-blue);
   border-radius: 5px;
 
   color: #fff;
@@ -162,6 +143,5 @@
 
 .card__link:hover {
   background: #fff;
-  color: #00acdc;
-  border: 1px solid #00acdc;
+  color: var(--color-blue);
 }
