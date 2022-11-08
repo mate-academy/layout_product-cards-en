@@ -1,0 +1,11 @@
+@import "./card.css";
+
+html {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  width: 200px;
+}
