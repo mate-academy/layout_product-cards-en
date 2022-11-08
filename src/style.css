@@ -1,1 +1,19 @@
-/* empty source */
+@import "./cards.css";
+
+@import "./stars.css";
+
+:root {
+  --color-main: #060b35;
+  --color-secondary: #616070;
+  --color-blue: #00acdc;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+}
