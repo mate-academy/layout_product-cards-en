@@ -9,11 +9,11 @@
 .card__product-image {
   width: 160px;
   height: 134px;
-  margin-bottom: 40px;
+  margin: 0 3px 36px;
 }
 
 .card__title {
-  margin-bottom: 4px;
+  margin: 0 auto 4px;
   font-size: 12px;
   line-height: 18px;
   font-weight: 500;
@@ -31,13 +31,13 @@
   align-items: center;
 }
 
-.card__price-Title {
+.card__price-title {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
 }
 
-.card__price-Amount {
+.card__price-amount {
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
@@ -48,7 +48,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
   height: 40px;
   border: 1px solid var(--main-color);
   border-radius: 5px;
