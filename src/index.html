@@ -14,8 +14,57 @@
     >
     <title>Product cards</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap">
   </head>
   <body>
-    <h1>Product cards</h1>
+    <div class="mainCard" data-qa="card">
+      <div class="mainCard__image image">
+        <img class="photo"
+        src="images/imac.jpeg" alt="mac">
+      </div>
+
+      <div class="mainCard__description">
+        <div class="mainCard__model">
+          APPLE A1419 iMac 27" Retina 5k Monoblock (MNED2UA/A)
+        </div>
+        <div class="mainCard__details">
+          Product code: 195434
+        </div>
+      </div>
+
+      <div class="mainCard__review">
+        <div class="mainCard__stars">
+          <div class="mainCard__stars_star"></div>
+          <div class="mainCard__stars_star"></div>
+          <div class="mainCard__stars_star"></div>
+          <div class="mainCard__stars_star"></div>
+          <div class="mainCard__stars_star"></div>
+        </div>
+        <div class="mainCard__rating">
+          Review:5
+        </div>
+      </div>
+
+      <div class="mainCard__price">
+        <div class="mainCard__priceWord">
+          Price
+        </div>
+        <div class="mainCard__priceDigit">
+          $2,199
+        </div>
+      </div>
+
+      <button
+        type="button" 
+        class="mainCard__button button"
+      >
+        <a href="#"
+          class="button__link"
+          data-qa="hover"
+        >
+        Buy
+        </a>
+      </button>
+    </div>
   </body>
 </html>
