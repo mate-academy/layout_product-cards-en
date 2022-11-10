@@ -19,10 +19,6 @@
   text-transform: uppercase;
 }
 
-.fullCard__button {
-  margin: 0 16px 16px;
-}
-
 .button:hover {
   background: #fff;
   border: 1px solid rgba(0, 172, 220, 1);

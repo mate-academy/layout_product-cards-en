@@ -2,11 +2,7 @@
   display: inline-block;
 }
 
-.photo {
+.image__photo {
   width: 160px;
   height: 134px;
-}
-
-.fullCard__image {
-  margin: 32px 19px 36px;
 }

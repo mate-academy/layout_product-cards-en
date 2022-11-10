@@ -6,10 +6,6 @@
   width: 166px;
 }
 
-.fullCard__rating {
-  margin: 0 16px 24px;
-}
-
 .rating__stars {
   display: flex;
   flex-direction: row;
