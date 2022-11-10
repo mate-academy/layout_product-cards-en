@@ -1,57 +1,113 @@
-* {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-}
-
 .card {
   width: 200px;
   border: 1px solid #f3f3f3;
-  box-sizing: border-box;
-  padding: 32px 16px 16px ;
-  display: flex;
-  flex-direction: column;
   border-radius: 5px;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 
-.card__iMac {
+.card__image {
   width: 160px;
   height: 134px;
-  margin: 0 auto;
+  padding: 32px 3px 0;
+  margin-bottom: 36px;
 }
 
-.card__discription {
-  font-size: 12px;
+.card__title {
   font-weight: 500;
-  line-height: 18px;
-  width: 166px;
-  height: 36px;
+  font-size: 12px;
   color: #060b35;
-  margin-top: 40px;
+  line-height: 18px;
+  margin-bottom: 4px;
+
 }
 
-.card__productCode {
-  font-weight: 400;
-  font-size: 10px;
-  color: #616070;
-  margin-top: 4px;
-}
-
-.reviewSection {
+.card-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 16px 16px;
+}
+
+.card-price__value {
+  font-weight: 700;
+  margin: 0;
+}
+
+.card__model {
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--color);
+  margin: 0 0 17px;
+}
+
+.card__card-price {
+  margin-bottom: 16px;
+}
+
+.card-price__text {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--color);
+  margin: 0;
+}
+
+.card__buy-button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background: var(--background-color);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 16px;
+  padding: 12px 70px 12px 69px;
+}
+
+.card__buy-button:hover {
+  background-color: white;
+  color: var(--background-color);
+  border: 1px solid var(--background-color);
+  cursor: pointer;
+}
+
+@import "./page.css";
+@import "./card.css";
+@import "./review.css";
+@import "./variables.css";
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.review__flex {
+  display: flex;
 }
 
 .stars {
   display: flex;
 }
 
-.reviewSection--Card-1 {
-  margin-top: 16px;
+.card__review {
+  margin-bottom: 23px;
 }
 
 .stars__star {
-  background-image: url(./images/star.svg);
+  background-image: url(./star.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 4px;
@@ -64,64 +120,16 @@
 .stars--3 .stars__star:nth-child(-n+3),
 .stars--4 .stars__star:nth-child(-n+4),
 .stars--5 .stars__star:nth-child(-n+5) {
-  background-image: url(./images/star-active.svg);
+  background-image: url(./star-active.svg);
 }
 
-.reviewSection__reviewRate {
+.review__text {
   font-weight: 400;
   font-size: 10px;
-  color: #060b35;
+  margin: 0;
 }
 
-.price {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-}
-
-.price--card-1 {
-  margin-top: 24px;
-}
-
-.price__text {
-  font-weight: 400;
-  font-size: 12px;
-  color: #616070;
-}
-
-.price__number {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
-}
-
-.button__Buy {
-  color: #fff;
-  text-decoration: none;
-}
-
-.button:hover {
-  background-color: #fff;
-  color: #00acdc;
-  border: 1px solid #00acdc;
-  cursor: pointer;
-}
-
-.card__buy-button {
-  width: 166px;
-  height: 40px;
-  background: #00acdc;
-  border-radius: 5px;
-  border: none;
-  color: white;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 16px;
-}
-
-.card__buy-button:hover {
-  background-color: white;
-  color: #00acdc;
-  border: 1px solid #00acdc;
-  cursor: pointer;
+.root {
+  --background-color: #00acdc;
+  --color: #616070;
 }
