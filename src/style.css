@@ -2,17 +2,16 @@
 @import "./styles/stars.css";
 @import "./styles/card.css";
 
-* {
-  box-sizing: border-box;  
-}
 html {
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
   --blue-color: #00acdc;
   --white-color: #fff;
+  --color-main: #060b35;
+  --color-secondary: #616070;
 }
 
 body {
   margin: 0;
 }
-
