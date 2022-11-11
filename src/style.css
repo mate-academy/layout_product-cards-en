@@ -1,6 +1,7 @@
 /* #region Normalization*/
 body {
   margin: 0;
+  padding: 0;
   background: rgba(255, 255, 255, 1);
 }
 /*#endregion*/
@@ -12,18 +13,15 @@ body {
   width: 200px;
   border: 1px solid rgba(243, 243, 243, 1);
   border-radius: 5px;
+  height: 406px;
 
 }
 /* #region image */
 
-.image {
-  /* display: inline-block; */
-  margin: 32px 19px 36px;
-}
-
-.photo {
+.mainCard__photo {
   height: 134px;
-  /* width: 160px; */
+  margin: 32px 19px 38px;
+  width: 160px;
 
 }
 /* #endregion */
@@ -36,7 +34,6 @@ body {
   flex-direction: column;
   align-items: center;
   flex-wrap: nowrap;
-  width: 166px;
   margin: 0 16px 16px;
 }
 
@@ -46,6 +43,10 @@ body {
   line-height: 18px;
   margin-bottom: 4px;
   font-weight: bold;
+  /* height: 36px; */
+  width: 166px;
+  left: 17px;
+  /* top: 207px; */
 }
 
 .mainCard__details {
@@ -55,6 +56,12 @@ body {
   font-weight: 400;
   line-height: 14px;
   color: rgba(97, 96, 112, 1);
+  height: 14px;
+  width: 98px;
+  left: 17px;
+  top: 247px;
+  border-radius: nullpx;
+
 }
 /* #endregion*/
 
@@ -92,7 +99,7 @@ body {
 
 .mainCard__review {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: nowrap;
   align-items: center;
   width: 166px;
@@ -102,7 +109,7 @@ body {
 .mainCard__stars {
   display: flex;
   justify-content: left;
-  width: 100%;
+  width: 93%;
   height: 16px;
 }
 
@@ -125,30 +132,35 @@ body {
   font-size: 10px;
   text-align: right;
   font-weight: 400px;
+  height: 16px;
+  width: 53px;
+  left: 113px;
+  top: 0;
+  line-height: 14px;
+
 }
 /* #endregion */
 
 /* #region Button */
 .mainCard__button {
-  margin: 0 16px 16px;
-}
-
-.button {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 166px;
   height: 40px;
   border-radius: 5px;
+  top: 351px;
+  left: 17px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   border: 0;
   background-color: rgba(0, 172, 220, 1);
+  margin: 0 16px 16px;
 }
 
-.button__link {
+.mainCard__link {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700px;
@@ -157,13 +169,13 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-.button:hover {
+.mainCard__button:hover {
   border-radius: 5px;
   background: #fff;
   border: 1px solid rgba(0, 172, 220, 1);
 }
 
-.button:hover .button__link {
+.mainCard__button:hover .mainCard__link {
   color: rgba(0, 172, 220, 1);
 }
 /*#endregion*/
