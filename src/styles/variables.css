@@ -4,6 +4,10 @@
   --card-width: 199px;
   --card-height: 406px;
   --font-size: 12px;
+  --font-size-product-code-desc: 10px;
   --cards-main-color: #060b35;
+  --main-background-color: #00acdc;
+  --active-hover-color: #00acdc;
   --card-padding: 0 16px;
+
 }
