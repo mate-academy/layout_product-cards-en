@@ -1,0 +1,9 @@
+:root {
+  --cardBorderColor: #e5e5e5;
+  --productsGap: 50px;
+  --card-width: 199px;
+  --card-height: 406px;
+  --font-size: 12px;
+  --cards-main-color: #060b35;
+  --card-padding: 0 16px;
+}
