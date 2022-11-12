@@ -63,7 +63,8 @@
   flex: 1 0 21%;
   max-width: var(--card-width);
   max-height: var(--card-height);
-  border: 1px solid #e5e5e5;
+  border: 0.5px solid #e5e5e5;
+  border-radius: 5px;
 }
 
 .product-container__card-pic {
@@ -96,7 +97,6 @@
 .stars__container {
   padding: var(--card-padding);
   margin-top: 16px;
-
 }
 
 .stars__star {
@@ -117,7 +117,7 @@
 }
 
 .stars__reviews {
-  padding-left: 16px;
+  margin-left: 16px;
   font-size: var(--font-size-product-code-desc);
   text-align: center;
   align-self: center;
@@ -147,18 +147,31 @@
 }
 
 .button-container__buy-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 16px;
+  padding: 0;
   background-color: #00acdc;
   border-radius: 5px;
   width: 166px;
   height: 40px;
   border: 1px solid var(--main-background-color);
+}
+
+.button-container__buy-button:hover {
+  background-color: #fff;
+  color: var(--active-hover-color);
+}
+
+.button-container__buy-button-link {
+  text-decoration: none;
+  padding: 12px 69px;
   font-size: 14px;
   font-weight: 700;
   color: white;
 }
 
-.button-container__buy-button:hover {
-  background-color: #fff;
+.button-container__buy-button-link:hover {
   color: var(--active-hover-color);
 }
