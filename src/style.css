@@ -32,12 +32,12 @@ body {
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
-  color: #060b35;
+  color: var(--primary_text_color);
   margin-bottom: 4px;
 }
 
 .card_product_code {
-  color: #616070;
+  color: var(--default_text_color);
   margin-bottom: 16px;
 }
 
