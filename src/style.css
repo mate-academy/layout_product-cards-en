@@ -1,4 +1,9 @@
-/* empty source */
+:root {
+  --primary_text_color: #060b35;
+  --secondary_text_color: #00acdc;
+  --default_text_color: #616070;
+}
+
 body {
   font-family: Roboto, sans-serif;
   font-size: 10px;
@@ -66,7 +71,7 @@ body {
 }
 
 .card_review_text {
-  color: #060b35;
+  color: var(--primary_text_color);
 }
 
 .card_price {
@@ -79,14 +84,14 @@ body {
 
 .card_price_text {
   font-size: 12px;
-  color: #616070;
+  color: var(--default_text_color);
 }
 
 .card_price_money {
   font-size: 16px;
   font-weight: 700;
   line-height: 18px;
-  color: #060b35;
+  color: var(--primary_text_color);
 }
 
 .card_buy_button {
@@ -107,12 +112,12 @@ body {
   text-decoration: none;
 
   color: #fff;
-  background-color: #00acdc;
-  border: 2px solid #00acdc;
+  background-color: var(--secondary_text_color);
+  border: 2px solid var(--secondary_text_color);
   border-radius: 5px;
 }
 
 .card_buy_button:hover {
   background-color: #fff;
-  color: #00acdc;
+  color: var(--secondary_text_color);
 }
