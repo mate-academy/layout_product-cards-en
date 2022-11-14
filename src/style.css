@@ -11,18 +11,18 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 200px;
+  box-sizing: border-box;
   border: 1px solid rgba(243, 243, 243, 1);
   border-radius: 5px;
   height: 406px;
-
 }
 /* #region image */
 
 .mainCard__photo {
   height: 134px;
-  margin: 32px 19px 38px;
+  margin: 0 16px;
   width: 160px;
-
+  display: inline-block;
 }
 /* #endregion */
 
@@ -40,9 +40,10 @@ body {
 .mainCard__model {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
-  line-height: 18px;
+  /* line-height: 18px; */
   margin-bottom: 4px;
   font-weight: bold;
+  margin-top: 40px;
   /* height: 36px; */
   width: 166px;
   left: 17px;
@@ -61,7 +62,6 @@ body {
   left: 17px;
   top: 247px;
   border-radius: nullpx;
-
 }
 /* #endregion*/
 
@@ -137,45 +137,30 @@ body {
   left: 113px;
   top: 0;
   line-height: 14px;
-
 }
 /* #endregion */
 
-/* #region Button */
-.mainCard__button {
+.mainCard__link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 166px;
   height: 40px;
   border-radius: 5px;
-  top: 351px;
-  left: 17px;
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  border: 0;
   background-color: rgba(0, 172, 220, 1);
   margin: 0 16px 16px;
-}
-
-.mainCard__link {
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 700px;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   color: rgba(255, 255, 255, 1);
 }
 
-.mainCard__button:hover {
+.mainCard__link:hover {
   border-radius: 5px;
   background: #fff;
   border: 1px solid rgba(0, 172, 220, 1);
-}
-
-.mainCard__button:hover .mainCard__link {
   color: rgba(0, 172, 220, 1);
 }
 /*#endregion*/
