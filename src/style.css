@@ -1,1 +1,166 @@
-/* empty source */
+/* #region Normalization*/
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(255, 255, 255, 1);
+}
+/*#endregion*/
+
+.mainCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  box-sizing: border-box;
+  border: 1px solid rgba(243, 243, 243, 1);
+  border-radius: 5px;
+  height: 406px;
+}
+/* #region image */
+
+.mainCard__photo {
+  height: 134px;
+  margin: 0 16px;
+  width: 160px;
+  display: inline-block;
+}
+/* #endregion */
+
+/*#region description */
+
+.mainCard__description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 0 16px 16px;
+}
+
+.mainCard__model {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  /* line-height: 18px; */
+  margin-bottom: 4px;
+  font-weight: bold;
+  margin-top: 40px;
+  /* height: 36px; */
+  width: 166px;
+  left: 17px;
+  /* top: 207px; */
+}
+
+.mainCard__details {
+  align-self: flex-start;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  color: rgba(97, 96, 112, 1);
+  height: 14px;
+  width: 98px;
+  left: 17px;
+  top: 247px;
+  border-radius: nullpx;
+}
+/* #endregion*/
+
+/* #region price and amount */
+.mainCard__price {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: nowrap; */
+  /* align-items: center; */
+  /* width: 166px; */
+  margin: 0 16px 16px;
+  align-items: right;
+
+}
+
+.mainCard__priceWord {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(97, 96, 112, 1);
+  font-weight: 400px;
+
+}
+
+.mainCard__priceDigit {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(6, 11, 53, 1);
+}
+/* #endregion */
+
+/* #region stars & reviews */
+
+.mainCard__review {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 166px;
+  margin: 0 16px 24px;
+}
+
+.mainCard__stars {
+  display: flex;
+  justify-content: left;
+  width: 93%;
+  height: 16px;
+}
+
+.mainCard__stars_star {
+  display: inline-block;
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.mainCard__stars div:nth-child(n+5) {
+  background-image: url(images/star.svg);
+}
+
+.mainCard__rating {
+  font-family: "Roboto", sans-serif;
+  color: rgba(6, 11, 53, 1);
+  font-size: 10px;
+  text-align: right;
+  font-weight: 400px;
+  height: 16px;
+  width: 53px;
+  left: 113px;
+  top: 0;
+  line-height: 14px;
+}
+/* #endregion */
+
+.mainCard__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 166px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: rgba(0, 172, 220, 1);
+  margin: 0 16px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+.mainCard__link:hover {
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid rgba(0, 172, 220, 1);
+  color: rgba(0, 172, 220, 1);
+}
+/*#endregion*/
