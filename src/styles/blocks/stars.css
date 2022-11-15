@@ -1,0 +1,32 @@
+.stars {
+  display: flex;
+}
+
+.stars__container {
+  padding: var(--card-padding);
+  margin-top: 16px;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url("/src/images/star.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+}
+
+.stars:first-child {
+  margin-left: 0;
+}
+
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url("/src/images/star-active.svg");
+}
+
+.stars__reviews {
+  margin-left: 16px;
+  font-size: var(--font-size-product-code-desc);
+  text-align: center;
+  align-self: center;
+}
