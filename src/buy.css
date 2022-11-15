@@ -1,0 +1,23 @@
+.mainCard__buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  border-radius: 5px;
+  width: 166px;
+  padding: 11px 0;
+  border: 1px solid transparent;
+  background: rgba(0, 172, 220, 1);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.mainCard__buy:hover {
+  border-color: rgba(0, 172, 220, 1);
+  background-color: #fff;
+  color: rgba(0, 172, 220, 1);
+}
