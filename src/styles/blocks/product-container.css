@@ -1,11 +1,4 @@
 .product-container__cards {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 50px;
-  margin-bottom: 70px;
-  padding: 0 40px;
   color: var(--cards-main-color);
 }
 
