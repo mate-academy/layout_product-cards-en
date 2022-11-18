@@ -4,7 +4,7 @@
 
 body {
   background-color: lightgray;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .card {
@@ -103,5 +103,5 @@ body {
 
 .buyLink {
   color: inherit;
-  text-decoration: inherit;
+  text-decoration: none;
 }
