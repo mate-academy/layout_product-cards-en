@@ -1,9 +1,6 @@
 @import "./variables.css";
 
 @import "./blocks/page.css";
-@import "./blocks/header.css";
-@import "./blocks/logo-link.css";
-@import "./blocks/main-nav.css";
 @import "./blocks/product-container.css";
 @import "./blocks/product-price-container.css";
 @import "./blocks/button-container.css";
