@@ -1,11 +1,13 @@
 :root {
   --cardBorderColor: #e5e5e5;
-  --card-width: 198px;
+  --card-width: 200px;
   --card-height: 406px;
+  --button-height: 40px;
+  --button-width: 166px;
   --font-size: 12px;
+  --id-font-wiehgt: 400;
   --font-size-product-code-desc: 10px;
   --cards-main-color: #060b35;
   --main-background-color: #00acdc;
   --active-hover-color: #00acdc;
-  --card-padding: 0 16px;
 }
