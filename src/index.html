@@ -13,7 +13,7 @@
       "
     >
     <title>Product cards</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
       rel="preconnect"
@@ -23,25 +23,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <section class="card" data-qa="card">
-      <div class="image">
+    <article class="card" data-qa="card">
+      <header>
         <img
-        src="images/imac.jpeg"
-        alt="imac.jpeg"
-        class="image__monitor"
+          src="images/imac.jpeg"
+          alt="iMac image"
+          class="card__image"
         >
-      </div>
-      <div class="title">
-        <p class="title__text">
-         APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
-        </p>
-      </div>
-      <div class="description">
-        <p class="description__text">
+      </header>
+      <main>
+        <h2 class="card__title">
+          APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+        </h2>
+        <p class="card__description">
           Product code: 195434
         </p>
-      </div>
-      <div class="distance1">
+      </main>
+      <section>
         <div class="stars">
           <span class="stars__star"></span>
           <span class="stars__star"></span>
@@ -49,35 +47,27 @@
           <span class="stars__star"></span>
           <span class="stars__star"></span>
         </div>
-        <div class="rewievs">
-          <p class="rewievs__text">
-            Reviews: 5
-          </p>
-        </div>
-      </div>
-      <div class="distance2">
-        <div class="price">
-          <p class="price__text">
-            Price:
-          </p>
-        </div>
-        <div class="pricetag">
-          <p class="pricetag__text">
+        <p class="card__rewievs">
+          Reviews: 5
+        </p>
+      </section>
+      <footer>
+        <p class="card__price">
+          Price:
+        </p>
+        <p class="card__pricetag">
             $2,199
-          </p>
-        </div>
-      </div>
-      <div class="button">
-        <a
-          href="#home"
-          data-qa="hover"
-          class="button__link"
-        >
-          <button class="button__text">
-            BUY
-          </button>
-        </a>
-      </div>
-    </section>
+        </p>
+      </footer>
+      <a
+        href="#home"
+        data-qa="hover"
+        class="card__link"
+      >
+        <button class="card__button">
+          BUY
+        </button>
+      </a>
+    </article>
   </body>
 </html>

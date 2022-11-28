@@ -1,0 +1,6 @@
+article {
+  max-width: var(--card-max-width);
+  background-color: #fff;
+  border: var(--card-border) solid #f3f3f3;
+  border-radius: var(--card-border-radius);
+}
