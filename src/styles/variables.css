@@ -1,5 +1,5 @@
 :root {
-  --card-max-width: calc(200px - 2px);
+  --card-max-width: 200px;
   --card-border: 1px;
   --card-border-radius: 5px;
   --min-section-gap: 16px;
@@ -12,4 +12,7 @@
   --card-font-size: 12px;
   --cardfont-color: #060b35;
   --card-button-bluecolor: #00acdc;
+  --card-description-grey: #616070;
+  --card-background-color: #fff;
+  --border-color: #f3f3f3;
 }
