@@ -24,7 +24,7 @@
   padding: var(--card-padding);
 }
 
-.card__section1 {
+.card__titlesection {
   display: block;
   box-sizing: border-box;
   width: 100%;
@@ -57,7 +57,7 @@
   font-style: normal;
 }
 
-.card__section2 {
+.card__rating {
   padding: var( --card-padding);
   margin: var( --card-margin);
   padding-left: var(--min-section-gap);
@@ -75,7 +75,7 @@
   padding: var( --card-padding);
 }
 
-.card__rewievs {
+.card__reviews {
   margin: var(--card-margin);
   padding-left: 13px;
   line-height: 14px;
@@ -128,10 +128,7 @@
   align-content: center;
   box-sizing: border-box;
   width: 100%;
-  padding-top: var(--min-section-gap);
-  padding-left: var(--min-section-gap);
-  padding-right: var(--min-section-gap);
-  padding-bottom: var(--min-section-gap);
+  padding: var(--min-section-gap);
 }
 
 .card__button {
