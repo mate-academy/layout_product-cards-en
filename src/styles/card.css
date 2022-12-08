@@ -1,20 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
 .card {
   max-width: var(--card-max-width);
   background-color: var( --card-background-color);
   border: var(--card-border) solid var(--border-color);
   border-radius: var(--card-border-radius);
-  box-sizing: border-box;
 }
 
 .card__header {
-  box-sizing: border-box;
   width: 100%;
   margin: var(--card-margin);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 19px;
-  padding-right: 19px;
+  padding: 19px;
+  padding-bottom: 0;
   padding-top: var(--card-header-top-gap);
 }
 
@@ -24,17 +26,16 @@
   padding: var(--card-padding);
 }
 
-.card__titlesection {
+.card__title-section {
   display: block;
-  box-sizing: border-box;
   width: 100%;
 }
 
 .card__title {
   margin: var(--card-margin);
   vertical-align: text-top;
-  padding-left: var(--min-section-gap);
-  padding-right: var(--min-section-gap);
+  padding: var(--min-section-gap);
+  padding-bottom: 0;
   padding-top: var(--card-padding-top);
   font-size: var(--card-font-size);
   font-weight: 500;
@@ -58,15 +59,12 @@
 }
 
 .card__rating {
-  padding: var( --card-padding);
+  padding: var(--min-section-gap);
   margin: var( --card-margin);
-  padding-left: var(--min-section-gap);
-  padding-top: 16px;
-  padding-right: var(--min-section-gap);
+  padding-bottom: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-sizing: border-box;
   width: 100%;
 }
 
@@ -86,13 +84,13 @@
 }
 
 .card__footer {
+  padding: var(--min-section-gap);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: var(--min-section-gap);
+  padding-bottom: 0;
   padding-top: 23px;
   padding-left: var(--min-section-gap);
-  box-sizing: border-box;
   width: 100%;
 }
 
@@ -126,7 +124,6 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  box-sizing: border-box;
   width: 100%;
   padding: var(--min-section-gap);
 }
