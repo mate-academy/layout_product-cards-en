@@ -117,6 +117,7 @@
   align-content: center;
   width: 100%;
   padding: var(--min-section-gap);
+  text-decoration: none;
 }
 
 .card__button {
@@ -131,9 +132,10 @@
   width: 166px;
   height: 40px;
   border-radius: var(  --card-border-radius);
+
 }
 
-.card:hover .card__button {
+.card__button:hover {
   background-color: var(--card-background-color);
   border: var( --card-border) solid var(--card-button-bluecolor);
   border-radius: var(  --card-border-radius);
