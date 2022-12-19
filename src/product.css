@@ -1,0 +1,12 @@
+.product {
+  display: flex;
+  min-height: 134px;
+}
+
+.card__product {
+  margin: 0 19px 40px;
+}
+
+.product__photo {
+  width: 100%;
+}
