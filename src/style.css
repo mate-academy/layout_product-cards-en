@@ -1,7 +1,4 @@
 @import "./normalize.css";
 @import "./variable.css";
 @import "./card.css";
-@import "./product.css";
-@import "./product-info.css";
-@import "./product-rating.css";
-@import "./card-button.css";
+@import "./stars.css";

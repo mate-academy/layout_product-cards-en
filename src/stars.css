@@ -1,16 +1,10 @@
-.product-rating {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .stars {
   display: flex;
-  padding: 0;
+  padding: 0 16px;
   list-style: none;
 }
 
-.product-rating__stars {
+.card__stars {
   margin: 0;
 }
 
@@ -36,27 +30,9 @@
   background-image: url(images/star-active.svg);
 }
 
-.product-rating__review {
+.stars__review {
+  margin-left: auto;
+  font-size: 10px;
   line-height: 16px;
-  color: var(--color-primary);
-}
-
-.product-info__price {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 24px 0 16px;
-}
-
-.product-info__price-text {
-  font-size: 12px;
-  line-height: 18px;
-  color: var(--color-secondary);
-}
-
-.product-info__price-tag {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 18px;
   color: var(--color-primary);
 }
