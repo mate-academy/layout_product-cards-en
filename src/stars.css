@@ -1,11 +1,7 @@
 .stars {
   display: flex;
-  padding: 0 16px;
+  padding: 0;
   list-style: none;
-}
-
-.card__stars {
-  margin: 0;
 }
 
 .stars__star {
@@ -30,9 +26,8 @@
   background-image: url(images/star-active.svg);
 }
 
-.stars__review {
-  margin-left: auto;
+.card__review {
   font-size: 10px;
-  line-height: 16px;
+  line-height: 14px;
   color: var(--color-primary);
 }

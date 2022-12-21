@@ -1,5 +1,6 @@
 .card {
-  width: 200px;
+  max-width: 200px;
+  padding: 32px 16px 0;
   background-color: var(--color-white);
   border: 1px solid #f3f3f3;
   border-radius: 5px;
@@ -7,8 +8,9 @@
 
 .card__product {
   display: flex;
+  padding: 0 3px;
+  margin-bottom: 40px;
   min-height: 134px;
-  margin: 32px 19px 40px;
 }
 
 .card__photo {
@@ -16,30 +18,36 @@
 }
 
 .card__title {
-  margin: 0 16px 4px;
+  margin-bottom: 4px;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
   color: var(--color-primary);
 }
 
-p {
-  margin: 0;
-}
-
 .card__code {
-  margin: 0 16px 16px;
+  margin-bottom: 16px;
   font-size: 10px;
   font-weight: 400;
   line-height: 14px;
   color: var(--color-secondary);
 }
 
+.card__feedback {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__stars {
+  margin: 0;
+}
+
 .card__price {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 24px 16px 0;
+  margin-top: 24px;
 }
 
 .card__price-text {
@@ -60,11 +68,12 @@ p {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  border-radius: 5px;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  margin: 16px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin: 16px 0;
   padding: 12px 0;
   color: var(--color-white);
   background-color: var(--color-tertiary);
