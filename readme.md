@@ -32,6 +32,5 @@ and keep it operational. If you change `stars--4` modifier to `stars--2` or
 other - number of selected stars should change correctly.
 - Item with the 'Buy' text  should be a link.
 - Check font styles on the mockup. Use [google fonts](https://fonts.google.com/)
-
 ---
 ![screenshot](./references/card-example.png)
