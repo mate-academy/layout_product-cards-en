@@ -1,7 +1,7 @@
 # Product cards
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_product-cards-en/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_product-cards-en/report/html_report/)
+- [DEMO LINK](https://HannieA.github.io/layout_product-cards-en/)
+- [TEST REPORT LINK](https://HannieA.github.io/layout_product-cards-en/report/html_report/)
 
 > Follow [this instructions](https://mate-academy.github.io/layout_task-guideline)
 ___
@@ -32,6 +32,5 @@ and keep it operational. If you change `stars--4` modifier to `stars--2` or
 other - number of selected stars should change correctly.
 - Item with the 'Buy' text  should be a link.
 - Check font styles on the mockup. Use [google fonts](https://fonts.google.com/)
-
 ---
 ![screenshot](./references/card-example.png)
