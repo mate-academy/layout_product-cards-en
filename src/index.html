@@ -21,16 +21,37 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <div class="card">
-      <img class="card__imac"
+    <div class="card" data-qa="card">
+      <img class="card__item-macspecs"
       src="/src/images/imac.jpeg" 
       alt="imac">
-      <div class="card__imac-text">
+      <div class="card__item-macspecs-text">
       APPLE A1419 iMac 27" Retina 5k Monoblock (MNED2UA/A)
       </div>
-      <div class="card__pc">
+      <div class="card__item-prdcode">
         Product code: 195434
       </div>
+      <div class="stars stars--4">
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star-rev">Reviews: 5</div>
+      </div>
+        
+      <div class="card__item-price">
+        <div class="card__item-price-text">
+          Price:
+        </div>
+        <div class="card__item-price-number">
+          $2,199
+        </div>
+      </div>
+      <a href="https://www.apple.com/" class="card__item-button"
+      data-qa="hover">
+        buy
+      </a>
     </div>
   </body>
 </html>

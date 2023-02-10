@@ -1,4 +1,4 @@
-/* empty source */
+/* #region page */
 
 * {
   margin: 0;
@@ -9,6 +9,8 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* #endregion */
+/* #region card */
 .card {
   display: flex;
   flex-direction: column;
@@ -16,17 +18,16 @@
   border: solid #f3f3f3 1px;
   border-radius: 5px;
   background-color: #fff;
-
 }
 
-.card__imac {
+.card__item-macspecs {
   padding-top: 33px;
   width: 160px;
   height: 134px;
   padding-left: calc(50% - 160px / 2);
 }
 
-.card__imac-text {
+.card__item-macspecs-text {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -37,7 +38,7 @@
   padding-bottom: 4px;
 }
 
-.card__pc {
+.card__item-prdcode {
   display: flex;
   align-items: center;
   font-family: "Roboto", sans-serif;
@@ -47,3 +48,93 @@
   padding: 0.01px 17px;
   color: #616070;
 }
+/* #endregion */
+/* #region stars */
+.card__item-stars {
+  display: flex;
+  list-style: none;
+  padding: 16px;
+}
+
+.stars {
+  display: flex;
+  list-style: none;
+  padding: 16px;
+}
+  
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+  
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+  
+.stars--4 .stars__star:nth-child(-n+4) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars__star-rev {
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  margin-left: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #060b35;
+}
+/* #endregion */
+/* #region price */
+.card__item-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  padding-top: 6px;
+  font-family: "Roboto", sans-serif;
+}
+
+.card__item-price-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #616070;
+}
+
+.card__item-price-number {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+/* #endregion */
+/* #region button */
+.card__item-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #00acdc;
+  width: 166px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 16px;
+  border: 1px solid #fff;
+}
+
+.card__item-button:hover {
+  background-color: #fff;
+  color: #00acdc;
+  border: solid 1px #00acdc;
+}
+/* #endregion */
