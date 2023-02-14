@@ -16,10 +16,10 @@
 }
 
 .card__macspecs {
+  justify-content: space-around;
+  align-items: center;
+  padding: 19px;
   padding-top: 33px;
-  width: 160px;
-  height: 134px;
-  padding-left: calc(50% - 160px / 2);
 }
 
 .card__macspecs-text {
@@ -47,7 +47,8 @@
 .stars {
   display: flex;
   list-style: none;
-  padding: 16px;
+  padding: 16px 14px;
+  align-items: center;
 }
 
 .stars__star {
@@ -58,12 +59,16 @@
   background-position: center;
   background-size: auto;
 }
-  
+
 .stars__star:not(:last-child) {
   margin-right: 4px;
 }
-  
-.stars--4 .stars__star:nth-child(-n+4) {
+
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(n) {
   background-image: url(images/star-active.svg);
 }
 
