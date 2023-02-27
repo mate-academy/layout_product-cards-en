@@ -1,6 +1,6 @@
 /* #region page */
 :root {
-  --min-width-container: 198px;
+  --min-width-container: 200px;
   --content-card-margin-top: 16px;
 }
 
@@ -10,10 +10,9 @@
 
 body {
   margin: 0;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-family: "Roboto" Arial, Helvetica, sans-serif ;
+  font-weight: 400;
+  font-family: "Roboto", Arial, Helvetica, sans-serif ;
+  color: #060b35;
 }
 
 /* #endregion */
@@ -24,10 +23,9 @@ body {
   align-items: center;
   flex-direction: column;
   width: var(--min-width-container);
-  height: 406px;
-  background-color: white;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
+  padding: 32px 16px 16px;
 }
 
 /* #endregion*/
@@ -36,28 +34,23 @@ body {
 .card__image {
   width: 160px;
   height: 134px;
-  margin: 32px 0 40px;
 }
 
 /* #endregion*/
 
 /* #region cardDescription */
 .card__description {
-  margin: 0 16px 4px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  align-self: flex-start;
+  align-self: center;
+  margin: 40px auto 0;
   font-size: 12px;
   line-height: 18px;
   font-weight: 500;
-  font-style: normal;
 }
 
 .card__product-number {
-  margin-left: 16px;
+  align-self: flex-start;
+  margin-top: 4px;
   margin-bottom: 0;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 10px;
   color: #616070;
 }
@@ -68,49 +61,35 @@ body {
 
 .card__reviews-container {
   display: flex;
-  flex-direction: row-reverse;
+  align-self: flex-start;
   justify-content: space-between;
   align-items: center;
-  margin-top: var(--content-card-margin-top);
+  margin-top: 17px;
   height: 16px;
-  width: var(--min-width-container);
+  width: 100%;
 }
 
 .card__reviews-count {
-  margin-right: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 10px;
+  text-align: center;
   line-height: 14px;
+}
+
+.stars {
   display: flex;
-  flex-direction: flex-start;
-  text-align: left;
-  color: #060b35;
+  align-self: flex-start;
 }
 
-.card__reviews-stars {
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 4px;
-  margin-left: 16px;
+.stars__star {
+  background-image: url(images/star.svg);
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 2px 6px 2px 2px;
 }
 
-.card__reviews-star::before {
-  width: 16px;
-  height: 16px;
-  content: url(images/star.svg);
-}
-
-.card__reviews-stars .input {
-  display: none;
-}
-
-.card__reviews-stars .input:first-child {
-  margin-left: 16px;
-}
-
-.card__reviews-stars .input:checked ~ .card__reviews-star::before {
-  content: url(images/star-active.svg);
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url(images/star-active.svg);
 }
 
 /*#endregion*/
@@ -119,67 +98,53 @@ body {
 
 .card__price-container {
   display: flex;
-  flex-direction: row;
+  align-self: flex-start;
   justify-content: space-between;
   align-items: center;
-  gap: 84px;
-  height: 18px;
-  margin: 24px 16px 0;
+  width: 100%;
+  line-height: 18px;
+  margin-top: 24px;
 }
 
 .card__price-title {
+  margin: 0;
   color: #616070;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 18px;
 }
 
 .card__price-amount {
-  color: #060b35;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  margin: 0;
   font-weight: 700;
   font-size: 16px;
-  line-height: 18px;
-  text-align: right;
 }
 
 /*#endregion*/
 
 /* #region button*/
-.card__button-container {
+
+.card__button-link {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 166px;
-  height: 40px;
   margin-top: var(--content-card-margin-top) ;
-  background-color: #00acdc;
+  border: 1px solid transparent;
+  padding: 11px 0;
+  background: #00acdc;
   border-radius: 5px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  text-transform: uppercase;
-  border: none;
-}
-
-.card__button-link {
   text-decoration: none;
-  color: #fff;
+  text-transform: uppercase;
 }
 
 .card__button-link:hover {
   color: #00acdc;
-}
-
-.card__button-container:hover {
   background-color: #fff;
-  color: #00acdc;
   border: 1px solid #00acdc;
 }
 
