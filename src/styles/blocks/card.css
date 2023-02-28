@@ -59,7 +59,7 @@
   color: var(--text-color-secondary);
 }
 
-.card__price-price {
+.card__price-value {
   color: var(--text-color-primary);
   line-height: 18px;
 }
@@ -80,7 +80,10 @@
   border: 1px solid transparent;
   margin-top: 16px;
   text-decoration: none;
-  transition: all 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
+  font-weight: 700;
 }
 
 .card__button:hover {
