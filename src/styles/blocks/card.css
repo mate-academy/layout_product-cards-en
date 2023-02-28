@@ -10,6 +10,12 @@
   padding: 16px;
 }
 
+.card__image {
+  width: 160px;
+  height: 134px;
+  margin-top: 16px;
+}
+
 .card__title {
   font-weight: 500;
   font-size: 12px;
@@ -35,6 +41,10 @@
   justify-content: space-between;
   width: 100%;
   margin-top: 16px;
+}
+
+.card__price {
+  margin-top: 24px;
 }
 
 .card__rating-info {
