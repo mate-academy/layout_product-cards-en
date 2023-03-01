@@ -1,17 +1,3 @@
+@import "./styles/reset.css";
 @import "./styles/card.css";
 @import "./styles/stars.css";
-
-html {
-  font-family: "Roboto", sans-serif;
-  --button_color: #00acdc;
-  --main_text_color: #060b35;
-  --secondary_text_color: #616070;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 14px;
-}
-
-body,
-p {
-  margin: 0;
-}

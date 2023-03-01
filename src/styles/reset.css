@@ -1,0 +1,16 @@
+:root {
+  --button_color: #00acdc;
+  --main_text_color: #060b35;
+  --secondary_text_color: #616070;
+}
+  
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+}
+  
+body,
+p {
+  margin: 0;
+}
