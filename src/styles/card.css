@@ -83,7 +83,7 @@
   color: #ffff;
 }
 
-.card__button-hover {
+.card__button:hover {
   background: #fff;
   border-radius: 5px;
   border: 1px solid #00acdc;
