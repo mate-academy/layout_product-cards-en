@@ -1,1 +1,93 @@
 /* empty source */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import "./stars.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border-radius: 5px;
+  border: 1px #f3f3f3 solid;
+  color: rgb(6, 11, 53);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 200px;
+
+  --color-blue: #00acdc;
+  --font-color-light: #616070;
+  --font-large: 16px;
+  --font-small: 10px;
+}
+
+.card__img {
+  box-sizing: content-box;
+  padding: 32px 3px 40px;
+}
+
+.card__product-name {
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 4px;
+}
+
+.card__product-code {
+  color: var(--font-color-light);
+  font-size: var(--font-small);
+  margin-bottom: 16px;
+}
+
+.rating__reviews {
+  font-size: var(--font-small);
+}
+
+.rating__star-block {
+  margin-bottom: 24px;
+}
+
+.price__word {
+  color: var(--font-color-light);
+}
+
+.price__number {
+  font-weight: 700;
+  font-size: var(--font-large);
+}
+
+.card__rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.card__buy-btn {
+  background: var(--color-blue);
+  border: 1px var(--color-blue) solid;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  width: 166px;
+}
+
+.card__buy-btn:hover {
+  background-color: white;
+  border: 1px solid var(--color-blue);
+  color: var(--color-blue);
+}
