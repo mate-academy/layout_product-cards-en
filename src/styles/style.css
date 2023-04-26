@@ -27,17 +27,18 @@ body {
 .card__product-name {
   font-weight: 500;
   line-height: 18px;
-  margin-bottom: 4px;
+  margin: 0 0 4px;
 }
 
 .card__product-code {
   color: var(--font-color-light);
   font-size: var(--font-small);
-  margin-bottom: 16px;
+  margin: 0 0 16px;
 }
 
-.rating__reviews {
+.card__reviews {
   font-size: var(--font-small);
+  margin: 0;
 }
 
 .rating__star-block {
@@ -46,16 +47,19 @@ body {
 
 .price__word {
   color: var(--font-color-light);
+  margin: 0;
 }
 
 .price__number {
   font-weight: 700;
   font-size: var(--font-large);
+  margin: 0;
 }
 
 .card__rating {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 24px;
 }
 
 .card__price {
