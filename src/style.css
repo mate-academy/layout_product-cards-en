@@ -1,1 +1,16 @@
 /* empty source */
+@import "./styles/stars.css";
+@import "./styles/product-card.css";
+
+:root {
+  --main-text-color: #060b35;
+  --secondary-text-color: #616070;
+
+  --button-blue-theme: #00acdc;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif ;
+  line-height: 14px;
+}
