@@ -1,0 +1,14 @@
+.page {
+  font-family: "Roboto", sans-serif;
+}
+
+.page__content,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+.page__content {
+  display: block;
+}
