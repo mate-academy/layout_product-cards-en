@@ -1,0 +1,83 @@
+.card {
+  width: var(--card-width);
+  font-family: Roboto, Helvetica, sans-serif;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  padding: 0 16px;
+  color: var(--color-main-dark);
+}
+
+.card__image {
+  box-sizing: content-box;
+  display: block;
+  height: 134px;
+  width: 160px;
+  margin: 32px 3px 40px;
+}
+
+.card__product-name {
+  margin-bottom: 4px;
+  font-size: var(--medium-font-size);
+  font-weight: var(--medium-font-weight);
+  line-height: 18px;
+}
+
+.card__product-code {
+  margin-bottom: 15px;
+  font-size: var(--small-font-size);
+  font-weight: var(--small-font-weight);
+  line-height: 14px;
+  color: var(--color-secondary-grey);
+}
+
+.card__stars-wrapper,
+.card__price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__stars-wrapper {
+  margin-bottom: var(--gap-large);
+}
+
+.card__stars-review {
+  font-weight: var(--small-font-weight);
+  font-size: var(--small-font-size);
+}
+
+.card__price,
+.card__purchase-button {
+  margin-bottom: var(--gap-small);
+}
+
+.card__price-syntax {
+  font-size: var(--medium-font-size);
+  font-weight: var(--small-font-weight);
+  color: var(--color-secondary-grey);
+}
+
+.card__price-value {
+  font-size: var(--large-font-size);
+  font-weight: var(--large-font-weight);
+}
+
+.card__purchase-button {
+  width: 166px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  font-weight: var(--large-font-weight);
+  font-size: var(--button-font-size);
+  border: 1px solid #00acdc;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: var(--color-blue);
+  text-align: center;
+  color: var(--color-bright);
+}
+
+.card__purchase-button:hover {
+  background-color: var(--color-bright);
+  color: var(--color-blue);
+}

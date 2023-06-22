@@ -1,8 +1,8 @@
 :root {
-  --main-font: roboto, helvetica, sans-serif;
-  --small-font: 400;
-  --medium-font: 500;
-  --large-font: 700;
+  --card-width: 200px;
+  --small-font-weight: 400;
+  --medium-font-weight: 500;
+  --large-font-weight: 700;
   --small-font-size: 10px;
   --medium-font-size: 12px;
   --button-font-size: 14px;
@@ -11,6 +11,6 @@
   --color-main-dark: #060b35;
   --color-secondary-grey: #616070;
   --color-bright: #fff;
-  --small-gap: 16px;
-  --large-gap: 24px;
+  --gap-small: 16px;
+  --gap-large: 24px;
 }
