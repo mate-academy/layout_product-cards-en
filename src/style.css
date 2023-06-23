@@ -1,1 +1,12 @@
-/* empty source */
+@import "./variables.css";
+@import "./blocks/card.css";
+@import "./blocks/star.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+p {
+  margin: 0;
+}
