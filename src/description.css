@@ -1,0 +1,16 @@
+.mainCard__model {
+  align-self: center;
+  margin: 40px auto 0;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.mainCard__code {
+  align-self: flex-start;
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-size: 10px;
+  line-height: 14px;
+  color: #616070;
+}

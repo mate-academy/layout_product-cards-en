@@ -1,1 +1,9 @@
-/* empty source */
+@import "./all.css";
+@import "./body.css";
+@import "./mainCard.css";
+@import "./image.css";
+@import "./description.css";
+@import "./review.css";
+@import "./price.css";
+@import "./buy.css";
+
